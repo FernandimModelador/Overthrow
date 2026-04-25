@@ -1,59 +1,358 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="Overthrow">
     <Package name="Overthrow">
-
         <Container name="Paramters and Statistics">
-            <Key ID="STR_STATISTICS_KILLS">
-                <Original>Kills: %1/%2</Original>
-                <Portuguese>Mortes: %1/%2</Portuguese>
+            <Key ID="STR_DIALOG_MAIN_ASSIGN_VEHICLE">
+                <Original>Assign Vehicle</Original>
+                <Portuguese>Entregar Veiculo</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_YES">
-                <Original>Yes</Original>
-                <Portuguese>Sim</Portuguese>
+            <Key ID="STR_DIALOG_MAIN_ASSIGN_VEHICLE_AI_DESC">
+                <Original>Assigns vehicle you are looking at to squad</Original>
+                <Portuguese>Entrega o veiculo que você está olhando para o esquadrão</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_NO">
-                <Original>No</Original>
-                <Portuguese>Não</Portuguese>
+            <Key ID="STR_DIALOG_MAIN_BUY_DESC">
+                <Original>Buy from this store</Original>
+                <Portuguese>Comprar dessa loja</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_EASY">
-                <Original>Easy</Original>
-                <Portuguese>Fácil</Portuguese>
+            <Key ID="STR_DIALOG_MAIN_BUY_HARDWARE_STORE">
+                <Original>Buy from this hardware store</Original>
+                <Portuguese>Comprar dessa loja de hardware</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_NORMAL">
-                <Original>Normal</Original>
-                <Portuguese>Normal</Portuguese>
+            <Key ID="STR_DIALOG_MAIN_CREATE_SQUAD">
+                <Original>Create Squad</Original>
+                <Portuguese>Criar Esquadrão</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_MEDIUM">
-                <Original>Medium</Original>
-                <Portuguese>Médio</Portuguese>
+            <Key ID="STR_DIALOG_MAIN_CREATE_SQUAD_AI_DESC">
+                <Original>Splits selected units off into a new squad</Original>
+                <Portuguese>Cria um novo esquadrão com as unidades selecionadas</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_HARD">
-                <Original>Hard</Original>
-                <Portuguese>Difícil</Portuguese>
+            <Key ID="STR_DIALOG_MAIN_GET_IN">
+                <Original>Get In</Original>
+                <Portuguese>Entrem</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_LOW">
-                <Original>Low</Original>
-                <Portuguese>Baixo</Portuguese>
+            <Key ID="STR_DIALOG_MAIN_GET_IN_AI_DESC">
+                <Original>Orders squad to board assigned vehicle</Original>
+                <Portuguese>Ordena o esquadrão a entrar no veiculo entregue</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_HIGH">
-                <Original>High</Original>
-                <Portuguese>Alto</Portuguese>
+            <Key ID="STR_DIALOG_MAIN_GET_IN_MY_VEHICLE">
+                <Original>Get In My Vehicle</Original>
+                <Portuguese>Entrem no meu veiculo</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_VERY_HIGH">
-                <Original>Very High</Original>
-                <Portuguese>Muito Alto</Portuguese>
+            <Key ID="STR_DIALOG_MAIN_GET_IN_MY_VEHICLE_AI_DESC">
+                <Original>Orders squad to board your vehicle</Original>
+                <Portuguese>Ordena o esquadrão a entrar no seu veiculo</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_FREE">
-                <Original>Free</Original>
-                <Portuguese>Grátis</Portuguese>
+            <Key ID="STR_DIALOG_MAIN_GET_OUT">
+                <Original>Get Out</Original>
+                <Portuguese>Desembarquem</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_GET_OUT_AI_DESC">
+                <Original>Orders squad to disembark vehicle</Original>
+                <Portuguese>Ordena o esquadrão a desembarcar do veiculo</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_IMPORT_DESC">
+                <Original>Import items from the global market</Original>
+                <Portuguese>Importar items do mercado global</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_LOCK_VEHICLE">
+                <Original>Lock Vehicle</Original>
+                <Portuguese>Trancar Veículo</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_LOCK_VEHICLE_DESC">
+                <Original>Locks this car so only you can drive it or access it's inventory</Original>
+                <Portuguese>Tranque este veiculo para apenas você poder dirigir ou acessar o inventário</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_LOOT_AI_DESC">
+                <Original>Commands all selected units to loot bodies and fill closest container to them</Original>
+                <Portuguese>Comanda todas as unidades selecionadas para lootear os corpos e guardar no armazem mais proximo deles</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_LOOT_DESC">
+                <Original>Loot bodies within 150m</Original>
+                <Portuguese>Looteia corpos dentro de 150m</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_OPEN_ARSENAL">
+                <Original>Open Arsenal</Original>
+                <Portuguese>Abrir Arsenal</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_OPEN_ARSENAL_AI_DESC">
+                <Original>Commands first unit selected to walk to and open the closest ammobox arsenal, uses warehouse if ammobox is at a warehouse</Original>
+                <Portuguese>Comanda a primeira unidade selecionada para ir e abrir o arsenal mais próximo, usa o armazem se a ammobox estiver dentro do mesmo</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_OPEN_INVENTORY">
+                <Original>Open Inventory</Original>
+                <Portuguese>Abrir Inventário</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_OPEN_INVENTORY_AI_DESC">
+                <Original>Commands first unit selected to open inventory</Original>
+                <Portuguese>Comanda a primeira unidade selecionada a abrir o inventário</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_OPTIONS">
+                <Original>Options</Original>
+                <Portuguese>Opções</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_SELL">
+                <Original>Sell to this store</Original>
+                <Portuguese>Vender para esta loja</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_SELL_HARDWARE_STORE">
+                <Original>Sell to this hardware store</Original>
+                <Portuguese>Vender para esta loja de hardware</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_STORE_ALL">
+                <Original>Store All</Original>
+                <Portuguese>Guardar Tudo</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_STORE_ALL_DESC">
+                <Original>Stores the contents of this vehicle in the warehouse</Original>
+                <Portuguese>Guardar Tudo deste veiculo para o armazem</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_TAKE_LEGIT">
+                <Original>Take Legit</Original>
+                <Portuguese>Pegar items Legalizados</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_TAKE_LEGIT_DESC">
+                <Original>Takes legal (sellable) items from the vehicle into your inventory</Original>
+                <Portuguese>Pegar apenas os items legais (vendiveis) deste veiculo para o seu inventário</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_TRANSFER_FROM">
+                <Original>Transfer From</Original>
+                <Portuguese>Transferir de</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_TRANSFER_FROM_DESC">
+                <Original>Transfers the contents of the closest container into this vehicle</Original>
+                <Portuguese>Transfere items do inventário mais proximo para este veiculo</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_TRANSFER_FROM_DESC_WAREHOUSE">
+                <Original>Take from the warehouse</Original>
+                <Portuguese>Pegar do Armazem</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_TRANSFER_LEGIT">
+                <Original>Transfer Legit</Original>
+                <Portuguese>Transferir items Legalizados</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_TRANSFER_LEGIT_DESC">
+                <Original>Transfers only legal (sellable) items from the closest container into this vehicle</Original>
+                <Portuguese>Transfere apenas os items legais (vendiveis) do inventario mais próximo para este veiculo</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_TRANSFER_LEGIT_DESC_WAREHOUSE">
+                <Original>Takes all legal (sellable) items from the warehouse</Original>
+                <Portuguese>Pegar todos os items legais (vendiveis) do armazem</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_TRANSFER_TO">
+                <Original>Transfer To</Original>
+                <Portuguese>Transferir para</Portuguese>
+            </Key>
+            <Key ID="STR_DIALOG_MAIN_TRANSFER_TO_DESC">
+                <Original>Transfers the contents of this vehicle into the closest container</Original>
+                <Portuguese>Transfere os items deste veiculo para o inventário mais próximo</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_ACE_BLOOD">
+                <Original>ACE Blood</Original>
+                <Portuguese>Sangue ACE</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_ACE_MEDICAL_LEVEL">
+                <Original>ACE Medical Level</Original>
+                <Portuguese>Nivel de medicina ACE</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_ENEMY_FACTION_TITLE">
+                <Original>Occupying faction</Original>
+                <Portuguese>Facção Ocupante</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_FACTORY_MULTI">
+                <Original>Factory Production Multiplier</Original>
+                <Portuguese>Multiplicador de produção de Fábrica</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_FAST_TRAVEL">
+                <Original>Fast Travel</Original>
+                <Portuguese>Viagem Rápida</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_FAST_TRAVEL_TOOLTIP">
+                <Original>Fast travels this vehicle and it's occupants</Original>
+                <Portuguese>Viagem Rápida com este veiculo e os seus passageiros</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_FAST_TRAVEL_TOOLTIP_INSTA">
+                <Original>Instantly travel to various controlled location</Original>
+                <Portuguese>Instantaneamente viaje para vários locais controlados </Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_GANG_MAX_RESOURCE">
+                <Original>Gang Maximum Resources</Original>
+                <Portuguese>Tamanho Maximo dos Recursos de Gang</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_GANG_MAX_SIZE">
+                <Original>Gang Maximum Size</Original>
+                <Portuguese>Tamanho Maximo de Gangs</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_RANDOM_NATO_GEAR">
+                <Original>Randomize NATO loadouts</Original>
+                <Portuguese>Randomizar equipamentos da NATO</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_SHOW_ENEMY_MARKERS">
+                <Original>Show known enemy groups on map</Original>
+                <Portuguese>Mostrar Marcadores de grupos Inimigos conhecidos no mapa</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_SHOW_PLAYERS_MARKERS">
+                <Original>Show Player Markers on HUD</Original>
+                <Portuguese>Mostrar Marcadores de Jogadores na HUD</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_START_AUTOLOAD">
+                <Original>Autoload a save or start a new gamey</Original>
+                <Portuguese>Carregar save ou começar um novo jogo</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_START_DIFFICULTY">
+                <Original>Game difficulty (Only with autoload)</Original>
+                <Portuguese>Dificuldade do jogo (Apenas com Auto carregamento)</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_START_FAST_TRAVEL">
+                <Original>Fast Travel (Only with autoload)</Original>
+                <Portuguese>Viagem Rápida (Apenas com Auto carregamento)</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_START_FAST_TRAVEL_RULES">
+                <Original>Fast Travel Rules (Only with autoload)</Original>
+                <Portuguese>Regras de viagem rápida (Apenas com Auto carregamento)</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_ADVANCED">
+                <Original>Advanced</Original>
+                <Portuguese>Avançado</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_ALL">
+                <Original>All</Original>
+                <Portuguese>Todos</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_BASIC">
+                <Original>Basic</Original>
+                <Portuguese>Básico</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_BUY">
+                <Original>Buy</Original>
+                <Portuguese>Comprar</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_CONTINUE_PREVIOUS_GAME">
+                <Original>Continue previous save</Original>
+                <Portuguese>Continue o Ultimo Save</Portuguese>
             </Key>
             <Key ID="STR_STATISTICS_COSTS">
                 <Original>Costs</Original>
                 <Portuguese>Custos</Portuguese>
             </Key>
+            <Key ID="STR_STATISTICS_DISABLED">
+                <Original>Disabled</Original>
+                <Portuguese>Desabilitado</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_EASY">
+                <Original>Easy</Original>
+                <Portuguese>Fácil</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_EXPORT_ALL">
+                <Original>Export All</Original>
+                <Portuguese>Exportar Tudo</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_EXPORT_ALL_DESC">
+                <Original>Exports the contents of this vehicle</Original>
+                <Portuguese>Exportar Tudo deste veiculo</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_FREE">
+                <Original>Free</Original>
+                <Portuguese>Grátis</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_HARD">
+                <Original>Hard</Original>
+                <Portuguese>Difícil</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_HIGH">
+                <Original>High</Original>
+                <Portuguese>Alto</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_IMPORT">
+                <Original>Import</Original>
+                <Portuguese>Importar</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_IMPORT_SAVE">
+                <Original>Import Save</Original>
+                <Portuguese>Importar Save</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_JOBS">
+                <Original>Jobs</Original>
+                <Portuguese>Trabalhos</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_KILLS">
+                <Original>Kills: %1/%2</Original>
+                <Portuguese>Mortes: %1/%2</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_LOAD_PREVIOUS_GAME">
+                <Original>Load Previous Save</Original>
+                <Portuguese>Carregar Ultimo Save</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_LOAD_SAVE">
+                <Original>Load Save (Original)</Original>
+                <Portuguese>Carregar Save (Original)</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_LOAD_STRING_SAVE">
+                <Original>Load string as a save</Original>
+                <Portuguese>Carregar texto como save</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_LOOT">
+                <Original>Loot</Original>
+                <Portuguese>Loot</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_LOW">
+                <Original>Low</Original>
+                <Portuguese>Baixo</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_MEDIUM">
+                <Original>Medium</Original>
+                <Portuguese>Médio</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_NEW_GAME">
+                <Original>New Game</Original>
+                <Portuguese>Novo Jogo</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_NEW_GAME_TOOLTIP">
+                <Original>Starts a new game (Please note, saving will overwrite any previous games)</Original>
+                <Portuguese>Começar um Novo Jogo (Atenção que vai apagar o save anterior)</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_NO">
+                <Original>No</Original>
+                <Portuguese>Não</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_NONE">
+                <Original>None</Original>
+                <Portuguese>Nenhum</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_NORMAL">
+                <Original>Normal</Original>
+                <Portuguese>Normal</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_NO_WEAPONS">
+                <Original>No Weapons</Original>
+                <Portuguese>Sem Armas</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_OPEN">
+                <Original>Open</Original>
+                <Portuguese>Aberto</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_OVERTHROW_SET_MONEY">
+                <Original>Overthrow: Set Money</Original>
+                <Portuguese>Overthrow: Setar Dinheiro</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_PLAYERS_ONLY">
+                <Original>Players Only</Original>
+                <Portuguese>Apenas Jogadores</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_RESTRICTED">
+                <Original>Restricted</Original>
+                <Portuguese>Restrito</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_SELL">
+                <Original>Sell</Original>
+                <Portuguese>Vender</Portuguese>
+            </Key>
             <Key ID="STR_STATISTICS_SPEED1">
                 <Original>100% Speed</Original>
                 <Portuguese>100% de Velocidade</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_SPEED10">
+                <Original>1000% Speed</Original>
+                <Portuguese>1000% de Velocidade</Portuguese>
             </Key>
             <Key ID="STR_STATISTICS_SPEED2">
                 <Original>150% Speed</Original>
@@ -87,317 +386,26 @@
                 <Original>500% Speed</Original>
                 <Portuguese>500% de Velocidade</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_SPEED10">
-                <Original>1000% Speed</Original>
-                <Portuguese>1000% de Velocidade</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_DISABLED">
-                <Original>Disabled</Original>
-                <Portuguese>Desabilitado</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_OPEN">
-                <Original>Open</Original>
-                <Portuguese>Aberto</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_NO_WEAPONS">
-                <Original>No Weapons</Original>
-                <Portuguese>Sem Armas</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_RESTRICTED">
-                <Original>Restricted</Original>
-                <Portuguese>Restrito</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_BASIC">
-                <Original>Basic</Original>
-                <Portuguese>Básico</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_ADVANCED">
-                <Original>Advanced</Original>
-                <Portuguese>Avançado</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_NONE">
-                <Original>None</Original>
-                <Portuguese>Nenhum</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_BUY">
-                <Original>Buy</Original>
-                <Portuguese>Comprar</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_SELL">
-                <Original>Sell</Original>
-                <Portuguese>Vender</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_BUY_DESC">
-                <Original>Buy from this store</Original>
-                <Portuguese>Comprar dessa loja</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_BUY_HARDWARE_STORE">
-                <Original>Buy from this hardware store</Original>
-                <Portuguese>Comprar dessa loja de hardware</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_SELL">
-                <Original>Sell to this store</Original>
-                <Portuguese>Vender para esta loja</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_SELL_HARDWARE_STORE">
-                <Original>Sell to this hardware store</Original>
-                <Portuguese>Vender para esta loja de hardware</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_PLAYERS_ONLY">
-                <Original>Players Only</Original>
-                <Portuguese>Apenas Jogadores</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_ALL">
-                <Original>All</Original>
-                <Portuguese>Todos</Portuguese>
-            </Key>
             <Key ID="STR_STATISTICS_START_GAME">
                 <Original>Start Game</Original>
                 <Portuguese>Começar Jogo</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_LOAD_PREVIOUS_GAME">
-                <Original>Load Previous Save</Original>
-                <Portuguese>Carregar Ultimo Save</Portuguese>
+            <Key ID="STR_STATISTICS_VERY_HIGH">
+                <Original>Very High</Original>
+                <Portuguese>Muito Alto</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_LOAD_SAVE">
-                <Original>Load Save (Original)</Original>
-                <Portuguese>Carregar Save (Original)</Portuguese>
+            <Key ID="STR_STATISTICS_YES">
+                <Original>Yes</Original>
+                <Portuguese>Sim</Portuguese>
             </Key>
-            <Key ID="STR_STATISTICS_LOAD_STRING_SAVE">
-                <Original>Load string as a save</Original>
-                <Portuguese>Carregar texto como save</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_IMPORT">
-                <Original>Import</Original>
-                <Portuguese>Importar</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_IMPORT_DESC">
-                <Original>Import items from the global market</Original>
-                <Portuguese>Importar items do mercado global</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_EXPORT_ALL">
-                <Original>Export All</Original>
-                <Portuguese>Exportar Tudo</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_EXPORT_ALL_DESC">
-                <Original>Exports the contents of this vehicle</Original>
-                <Portuguese>Exportar Tudo deste veiculo</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_IMPORT_SAVE">
-                <Original>Import Save</Original>
-                <Portuguese>Importar Save</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_CONTINUE_PREVIOUS_GAME">
-                <Original>Continue previous save</Original>
-                <Portuguese>Continue o Ultimo Save</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_NEW_GAME">
-                <Original>New Game</Original>
-                <Portuguese>Novo Jogo</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_LOOT">
-                <Original>Loot</Original>
-                <Portuguese>Loot</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_JOBS">
-                <Original>Jobs</Original>
-                <Portuguese>Trabalhos</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_NEW_GAME_TOOLTIP">
-                <Original>Starts a new game (Please note, saving will overwrite any previous games)</Original>
-                <Portuguese>Começar um Novo Jogo (Atenção que vai apagar o save anterior)</Portuguese>
-            </Key>
-            <Key ID="STR_STATISTICS_OVERTHROW_SET_MONEY">
-                <Original>Overthrow: Set Money</Original>
-                <Portuguese>Overthrow: Setar Dinheiro</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_START_AUTOLOAD">
-                <Original>Autoload a save or start a new gamey</Original>
-                <Portuguese>Carregar save ou começar um novo jogo</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_START_DIFFICULTY">
-                <Original>Game difficulty (Only with autoload)</Original>
-                <Portuguese>Dificuldade do jogo (Apenas com Auto carregamento)</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_FAST_TRAVEL">
-                <Original>Fast Travel</Original>
-                <Portuguese>Viagem Rápida</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_FAST_TRAVEL_TOOLTIP">
-                <Original>Fast travels this vehicle and it's occupants</Original>
-                <Portuguese>Viagem Rápida com este veiculo e os seus passageiros</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_FAST_TRAVEL_TOOLTIP_INSTA">
-                <Original>Instantly travel to various controlled location</Original>
-                <Portuguese>Instantaneamente viaje para vários locais controlados </Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_START_FAST_TRAVEL">
-                <Original>Fast Travel (Only with autoload)</Original>
-                <Portuguese>Viagem Rápida (Apenas com Auto carregamento)</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_START_FAST_TRAVEL_RULES">
-                <Original>Fast Travel Rules (Only with autoload)</Original>
-                <Portuguese>Regras de viagem rápida (Apenas com Auto carregamento)</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_SHOW_PLAYERS_MARKERS">
-                <Original>Show Player Markers on HUD</Original>
-                <Portuguese>Mostrar Marcadores de Jogadores na HUD</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_SHOW_ENEMY_MARKERS">
-                <Original>Show known enemy groups on map</Original>
-                <Portuguese>Mostrar Marcadores de grupos Inimigos conhecidos no mapa</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_RANDOM_NATO_GEAR">
-                <Original>Randomize NATO loadouts</Original>
-                <Portuguese>Randomizar equipamentos da NATO</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_GANG_MAX_SIZE">
-                <Original>Gang Maximum Size</Original>
-                <Portuguese>Tamanho Maximo de Gangs</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_GANG_MAX_RESOURCE">
-                <Original>Gang Maximum Resources</Original>
-                <Portuguese>Tamanho Maximo dos Recursos de Gang</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_FACTORY_MULTI">
-                <Original>Factory Production Multiplier</Original>
-                <Portuguese>Multiplicador de produção de Fábrica</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_ACE_MEDICAL_LEVEL">
-                <Original>ACE Medical Level</Original>
-                <Portuguese>Nivel de medicina ACE</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_ACE_BLOOD">
-                <Original>ACE Blood</Original>
-                <Portuguese>Sangue ACE</Portuguese>
-            </Key>
-            <Key ID="STR_PARAMTERS_ENEMY_FACTION_TITLE">
-                <Original>Occupying faction</Original>
-                <Portuguese>Facção Ocupante</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_LOOT_DESC">
-                <Original>Loot bodies within 150m</Original>
-                <Portuguese>Looteia corpos dentro de 150m</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_TRANSFER_FROM">
-                <Original>Transfer From</Original>
-                <Portuguese>Transferir de</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_TRANSFER_FROM_DESC">
-                <Original>Transfers the contents of the closest container into this vehicle</Original>
-                <Portuguese>Transfere items do inventário mais proximo para este veiculo</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_TRANSFER_FROM">
-                <Original>Transfer From</Original>
-                <Portuguese>Pegar de</Portuguese>
-            </Key>
-           <Key ID="STR_DIALOG_MAIN_TRANSFER_FROM_DESC">
-                <Original>Take from the warehouse</Original>
-                <Portuguese>Pegar do Armazem</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_STORE_ALL">
-                <Original>Store All</Original>
-                <Portuguese>Guardar Tudo</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_STORE_ALL_DESC">
-                <Original>Stores the contents of this vehicle in the warehouse</Original>
-                <Portuguese>Guardar Tudo deste veiculo para o armazem</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_TRANSFER_TO">
-                <Original>Transfer To</Original>
-                <Portuguese>Transferir para</Portuguese>
-            </Key>
-         <Key ID="STR_DIALOG_MAIN_TRANSFER_TO_DESC">
-                <Original>Transfers the contents of this vehicle into the closest container</Original>
-                <Portuguese>Transfere os items deste veiculo para o inventário mais próximo</Portuguese>
-            </Key>
-           <Key ID="STR_DIALOG_MAIN_TRANSFER_LEGIT">
-                <Original>Transfer Legit</Original>
-                <Portuguese>Transferir items Legalizados</Portuguese>
-            </Key>
-           <Key ID="STR_DIALOG_MAIN_TRANSFER_LEGIT_DESC">
-                <Original>Transfers only legal (sellable) items from the closest container into this vehicle</Original>
-                <Portuguese>Transfere apenas os items legais (vendiveis) do inventario mais próximo para este veiculo</Portuguese>
-            </Key>
-           <Key ID="STR_DIALOG_MAIN_TRANSFER_LEGIT_DESC_WAREHOUSE">
-                <Original>Takes all legal (sellable) items from the warehouse</Original>
-                <Portuguese>Pegar todos os items legais (vendiveis) do armazem</Portuguese>
-            </Key>
-           <Key ID="STR_DIALOG_MAIN_TAKE_LEGIT">
-                <Original>Take Legit</Original>
-                <Portuguese>Pegar items Legalizados</Portuguese>
-            </Key>
-           <Key ID="STR_DIALOG_MAIN_TAKE_LEGIT_DESC">
-                <Original>Takes legal (sellable) items from the vehicle into your inventory</Original>
-                <Portuguese>Pegar apenas os items legais (vendiveis) deste veiculo para o seu inventário</Portuguese>
-            </Key>
-           <Key ID="STR_DIALOG_MAIN_LOCK_VEHICLE">
-                <Original>Lock Vehicle</Original>
-                <Portuguese>Trancar Veículo</Portuguese>
-            </Key>
-           <Key ID="STR_DIALOG_MAIN_LOCK_VEHICLE_DESC">
-                <Original>Locks this car so only you can drive it or access it's inventory</Original>
-                <Portuguese>Tranque este veiculo para apenas você poder dirigir ou acessar o inventário</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_OPTIONS">
-                <Original>Options</Original>
-                <Portuguese>Opções</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_OPEN_INVENTORY">
-                <Original>Open Inventory</Original>
-                <Portuguese>Abrir Inventário</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_OPEN_ARSENAL">
-                <Original>Open Arsenal</Original>
-                <Portuguese>Abrir Arsenal</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_CREATE_SQUAD">
-                <Original>Create Squad</Original>
-                <Portuguese>Criar Esquadrão</Portuguese>
-            </Key>
-           <Key ID="STR_DIALOG_MAIN_ASSIGN_VEHICLE">
-                <Original>Assign Vehicle</Original>
-                <Portuguese>Entregar Veiculo</Portuguese>
-            </Key>
-           <Key ID="STR_DIALOG_MAIN_GET_IN">
-                <Original>Get In</Original>
-                <Portuguese>Entrem</Portuguese>
-            </Key>
-           <Key ID="STR_DIALOG_MAIN_GET_OUT">
-                <Original>Get Out</Original>
-                <Portuguese>Desembarquem</Portuguese>
-            </Key>
-           <Key ID="STR_DIALOG_MAIN_GET_OUT_AI_DESC">
-                <Original>Orders squad to disembark vehicle</Original>
-                <Portuguese>Ordena o esquadrão a desembarcar do veiculo</Portuguese>
-            </Key>
-           <Key ID="STR_DIALOG_MAIN_GET_IN_AI_DESC">
-                <Original>Orders squad to board assigned vehicle</Original>
-                <Portuguese>Ordena o esquadrão a entrar no veiculo entregue</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_ASSIGN_VEHICLE_AI_DESC">
-                <Original>Assigns vehicle you are looking at to squad</Original>
-                <Portuguese>Entrega o veiculo que você está olhando para o esquadrão</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_OPEN_ARSENAL_AI_DESC">
-                <Original>Commands first unit selected to walk to and open the closest ammobox arsenal, uses warehouse if ammobox is at a warehouse</Original>
-                <Portuguese>Comanda a primeira unidade selecionada para ir e abrir o arsenal mais próximo, usa o armazem se a ammobox estiver dentro do mesmo</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_LOOT_AI_DESC">
-                <Original>Commands all selected units to loot bodies and fill closest container to them</Original>
-                <Portuguese>Comanda todas as unidades selecionadas para lootear os corpos e guardar no armazem mais proximo deles</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_OPEN_INVENTORY_AI_DESC">
-                <Original>Commands first unit selected to open inventory</Original>
-                <Portuguese>Comanda a primeira unidade selecionada a abrir o inventário</Portuguese>
-            </Key>
-            <Key ID="STR_DIALOG_MAIN_CREATE_SQUAD_AI_DESC">
-                <Original>Splits selected units off into a new squad</Original>
-                <Portuguese>Cria um novo esquadrão com as unidades selecionadas</Portuguese>
-            </Key>
-        </Container> 
-
+        </Container>
         <Container name="Tutorials">
+            <Key ID="STR_MISSION_TUTORIAL_01">
+                <Original>There doesnt seem to be any NATO nearby. Head to %1, you should be able to find some NATO there. It's marked on your map</Original>
+            </Key>
+            <Key ID="STR_MISSION_TUTORIAL_02">
+                <Original>There is a group of NATO nearby, their position has been marked on your map. Let's show them we've had enough.</Original>
+            </Key>
             <Key ID="STR_TUTORIAL_POP_UP">
                 <Original>Would you like a quick tutorial? (You will receive free items)</Original>
             </Key>
@@ -410,12 +418,6 @@
             <Key ID="STR_TUTORIAL_TOOLTIP_03">
                 <Original>For the hardcore</Original>
             </Key>
-            <Key ID="STR_MISSION_TUTORIAL_01">
-                <Original>There doesnt seem to be any NATO nearby. Head to %1, you should be able to find some NATO there. It's marked on your map</Original>
-            </Key>
-            <Key ID="STR_MISSION_TUTORIAL_02">
-                <Original>There is a group of NATO nearby, their position has been marked on your map. Let's show them we've had enough.</Original>
-            </Key>
-        </Container> 
+        </Container>
     </Package>
 </Project>

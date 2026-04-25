@@ -79,7 +79,7 @@ class OT_dialog_load {
             h = "0.077 * safeZoneH";
             tooltip = "$STR_STATISTICS_CONTINUE_PREVIOUS_GAME";
             action = "closeDialog 0; [] remoteExec ['OT_fnc_loadGame', 2, false];";
-            text = "%STR_STATISTICS_LOAD_SAVE";
+            text = "$STR_STATISTICS_LOAD_SAVE";
         };
         class LoadString: RscOverthrowButton {
             idc = -1;
@@ -262,7 +262,7 @@ class OT_dialog_vehiclewarehouse {
             y = "0.654 * safeZoneH + safeZoneY";
             w = "0.149531 * safeZoneW";
             h = "0.077 * safeZoneH";
-            tooltip = "$STR_DIALOG_MAIN_TRANSFER_FROM_DESC";
+            tooltip = "$STR_DIALOG_MAIN_TRANSFER_FROM_DESC_WAREHOUSE";
             action = "closeDialog 0; createDialog 'OT_dialog_warehouse'; [] call OT_fnc_warehouseDialog;";
         };
         class RscButton_1602: RscOverthrowButton {
@@ -641,19 +641,19 @@ class OT_dialog_squad {
         };
         class RscButton_1604: RscOverthrowButton {
             idc = 1604;
-            text = "Get In My Vehicle"; //--- ToDo: Localize;
+            text = "$STR_DIALOG_MAIN_GET_IN_MY_VEHICLE";
             x = "0.005 * safeZoneW + safeZoneX";
             y = "0.588 * safeZoneH + safeZoneY";
             w = "0.149531 * safeZoneW";
             h = "0.077 * safeZoneH";
-            tooltip = "Orders squad to board your vehicle"; //--- ToDo: Localize;
+            tooltip = "$STR_DIALOG_MAIN_GET_IN_MY_VEHICLE_AI_DESC";
             action = "closeDialog 0; [] call OT_fnc_squadGetInMyVehicle;";
         };
         class RscButton_1612: RscOverthrowButton {
             idc = 1612;
             action = "call OT_fnc_optionsDialog";
 
-            text = "$STR_DIALOG_MAIN_OPTIONS"; //--- ToDo: Localize;
+            text = "$STR_DIALOG_MAIN_OPTIONS";
             x = "0.005 * safeZoneW + safeZoneX";
             y = "0.885 * safeZoneH + safeZoneY";
             w = "0.149531 * safeZoneW";

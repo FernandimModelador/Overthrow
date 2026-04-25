@@ -87,7 +87,7 @@ private _loopCode = {
     } else {
         private _num = _total - ({ alive _x } count units _group);
         _done = _num >= _total;
-        hintSilent format ["$STR_STATISTICS_KILLS", _num, _total];
+        hintSilent format [localize "$STR_STATISTICS_KILLS", _num, _total];
     };
 
     if !(_done) then {
