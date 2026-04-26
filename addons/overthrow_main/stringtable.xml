@@ -1,6 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="Overthrow">
     <Package name="Overthrow">
+        <Container name="Display">
+            <Key ID="STR_DISPLAY_CRAFTITEM">
+                <Original>&lt;t align='center' size='1.1'&gt;%1 x %2&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='0.7'&gt;%3&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;Recipe:&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='0.7'&gt;%4&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t align='center' size='1.1'&gt;%1 x %2&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='0.7'&gt;%3&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;Receita:&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='0.7'&gt;%4&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_JOB_DETAILS">
+                <Original>Expires in %1 hrs %2 mins</Original>
+                <Portuguese>Expira em %1 hrs %2 mins</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS">
+                <Original>Someone</Original>
+                <Portuguese>Alguém</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_01">
+                <Original>%1Fuel: %2%3&lt;br/&gt;</Original>
+                <Portuguese>%1Combustível: %2%3&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_02">
+                <Original>%1Load: %2kg&lt;br/&gt;</Original>
+                <Portuguese>%1Carga: %2kg&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_03">
+                <Original>%1All wheels OK&lt;br/&gt;</Original>
+                <Portuguese>%1Rodas OK&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_04">
+                <Original>%1Need %2 wheels&lt;br/&gt;</Original>
+                <Portuguese>%1Precisa %2 rodas&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_05">
+                <Original>%1All tracks OK&lt;br/&gt;</Original>
+                <Portuguese>%1Esteiras OK&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_06">
+                <Original>%1Need %2 tracks&lt;br/&gt;</Original>
+                <Portuguese>%1Precisa %2 esteiras&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_07">
+                <Original>%1Engine disabled&lt;br/&gt;</Original>
+                <Portuguese>%1Motor desativado&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_08">
+                <Original>%1Fuel tank ruptured&lt;br/&gt;</Original>
+                <Portuguese>%1Tanque de combustível furado&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_09">
+                <Original>%1Main rotor disabled&lt;br/&gt;</Original>
+                <Portuguese>%1Rotor principal desativado&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_10">
+                <Original>%1Tail rotor disabled&lt;br/&gt;</Original>
+                <Portuguese>%1Rotor traseiro desativado&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_11">
+                <Original>%1Gun disabled&lt;br/&gt;</Original>
+                <Portuguese>%1Armamento desativado&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_12">
+                <Original>%1&lt;br/&gt;Ammo:&lt;br/&gt;%2</Original>
+                <Portuguese>%1&lt;br/&gt;Munição:&lt;br/&gt;%2</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_13">
+                <Original>%1&lt;br/&gt;Out Of Ammo&lt;br/&gt;</Original>
+                <Portuguese>%1&lt;br/&gt;Sem munição&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_14">
+                <Original>&lt;t align='center' size='1.2'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1'&gt;Owner: %2&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.7'&gt;%3&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='center' size='1.2'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1'&gt;Dono: %2&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.7'&gt;%3&lt;/t&gt;</Portuguese>
+            </Key>
+        </Container>
         <Container name="Paramters and Statistics">
             <Key ID="STR_DIALOG_MAIN_ASSIGN_VEHICLE">
                 <Original>Assign Vehicle</Original>
@@ -158,6 +228,10 @@
                 <Original>&lt;t size='1.5'&gt;Fast Travel Rules&lt;/t&gt;</Original>
                 <Portuguese>&lt;t size='1.5'&gt;Regras de Viagem Rápida&lt;/t&gt;</Portuguese>
             </Key>
+            <Key ID="STR_PARAMTERS_ACE_BLOOD">
+                <Original>ACE Blood</Original>
+                <Portuguese>Sangue ACE</Portuguese>
+            </Key>
             <Key ID="STR_PARAMTERS_ACE_MEDICAL_LEVEL">
                 <Original>ACE Medical Level</Original>
                 <Portuguese>Nivel de medicina ACE</Portuguese>
@@ -229,6 +303,30 @@
             <Key ID="STR_PARAMTERS_FAST_TRAVEL_TOOLTIP">
                 <Original>Fast travels this vehicle and it's occupants</Original>
                 <Portuguese>Viagem Rápida com este veiculo e os seus passageiros</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_FAST_TRAVEL_TOOLTIP2">
+                <Original>Fast travel will not cost anything</Original>
+                <Portuguese>A viagem rápida não custará nada</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_FAST_TRAVEL_TOOLTIP3">
+                <Original>Fast travel will cost money</Original>
+                <Portuguese>A viagem rápida custará dinheiro</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_FAST_TRAVEL_TOOLTIP4">
+                <Original>Fast travel will be disabled</Original>
+                <Portuguese>A viagem rápida será desabilitada</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_FAST_TRAVEL_TOOLTIP5">
+                <Original>No rules for fast travel</Original>
+                <Portuguese>Sem regras para Viagem Rápida</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_FAST_TRAVEL_TOOLTIP6">
+                <Original>Cannot fast travel while holding a weapon or carrying drugs</Original>
+                <Portuguese>Proibido Viagem Rápida enquanto estiver com armas ou drogas</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_FAST_TRAVEL_TOOLTIP7">
+                <Original>Cannot fast travel while holding a weapon, carrying drugs, or in an offensive vehicle</Original>
+                <Portuguese>Proibido viagem rapida com armas, drogas, ou em um veiculo armado</Portuguese>
             </Key>
             <Key ID="STR_PARAMTERS_FAST_TRAVEL_TOOLTIP_INSTA">
                 <Original>Instantly travel to various controlled location</Original>
@@ -595,6 +693,34 @@
             <Key ID="STR_MISSION_TUTORIAL_02">
                 <Original>There is a group of NATO nearby, their position has been marked on your map. Let's show them we've had enough.</Original>
                 <Portuguese>Há um grupo da OTAN por perto; a posição deles está marcada no seu mapa. Vamos mostrar a eles que já chega.</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TUTORIAL_DRUGS_01">
+                <Original>There doesnt seem to be any civilians nearby. Head to %1, you should be able to find some there. It's marked on your map</Original>
+                <Portuguese>Não parece haver civis por perto. Vá para %1, você deve conseguir encontrar alguns lá. Está marcado no seu mapa.</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TUTORIAL_DRUGS_02">
+                <Original>There is a civilian nearby,&lt;br/&gt;their position has been marked on your map.</Original>
+                <Portuguese>Há um civil nas proximidades,&lt;br/&gt;a posição dele foi marcada no seu mapa.</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TUTORIAL_DRUGS_03">
+                <Original>Use your interaction key on the civilian to talk to them&lt;br/&gt;and see if they wanna buy your Ganja. Not everyone is into the sweet herb,&lt;br/&gt;but just keep trying until you get lucky.</Original>
+                <Portuguese>Use a tecla de interação com o civil para falar com ele&lt;br/&gt;e ver se ele quer comprar sua ganja. Nem todo mundo curte a erva,&lt;br/&gt;mas continue tentando até ter sorte.</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TUTORIAL_ECONOMY_01">
+                <Original>There doesnt seem to be any wrecks nearby.&lt;br/&gt;Head to %1, you should be able to find some there. It's marked on your map</Original>
+                <Portuguese>Não parece haver nenhum destroço por perto. Vá para %1,&lt;br/&gt;você deve conseguir encontrar alguns lá. Está marcado no seu mapa</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TUTORIAL_ECONOMY_02">
+                <Original>There is a wreck nearby.&lt;br/&gt;Use the toolkit to salvage it</Original>
+                <Portuguese>Há um destroço por perto.&lt;br/&gt;Use o kit de ferramentas para recuperá-lo</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TUTORIAL_ECONOMY_03">
+                <Original>Use your interaction key on the wreck to talk to salvage it.&lt;br/&gt;The items you get can be sold at any Hardware store,&lt;br/&gt;just drive up to it and press 'Y'</Original>
+                <Portuguese>Use a tecla de interação no destroço para falar com ele e recuperá-lo.&lt;br/&gt;Os itens que você conseguir podem ser vendidos em qualquer loja de ferragens,&lt;br/&gt;basta dirigir até lá e pressionar 'Y'.</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TUTORIAL_ECONOMY_04">
+                <Original>Go and grab the toolkit from your ammobox at home,&lt;br/&gt;you'll need a backpack to carry it</Original>
+                <Portuguese>Vá buscar o kit de ferramentas na sua caixa de munição em casa,&lt;br/&gt;você vai precisar de uma mochila para carregá-lo.</Portuguese>
             </Key>
             <Key ID="STR_TUTORIAL_POP_UP">
                 <Original>Would you like a quick tutorial? (You will receive free items)</Original>

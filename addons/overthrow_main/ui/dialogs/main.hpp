@@ -1419,7 +1419,7 @@ class OT_dialog_newgame {
             w = "0.0876563 * safeZoneW";
             h = "0.077 * safeZoneH";
             action = "server setVariable ['OT_fastTravelType', 0, true]; call OT_fnc_newGameDialog;";
-            tooltip = "Fast travel will not cost anything";
+            tooltip = "$STR_PARAMTERS_FAST_TRAVEL_TOOLTIP2";
         };
         class RscButton_1604: RscOverthrowButton {
             idc = 1604;
@@ -1430,7 +1430,7 @@ class OT_dialog_newgame {
             h = "0.077 * safeZoneH";
             color[] = {0, 0.8, 0, 1};
             action = "server setVariable ['OT_fastTravelType', 1, true]; call OT_fnc_newGameDialog;";
-            tooltip = "Fast travel will cost money";
+            tooltip = "$STR_PARAMTERS_FAST_TRAVEL_TOOLTIP3";
         };
         class RscButton_1605: RscOverthrowButton {
             idc = 1605;
@@ -1440,7 +1440,7 @@ class OT_dialog_newgame {
             w = "0.0876563 * safeZoneW";
             h = "0.077 * safeZoneH";
             action = "server setVariable ['OT_fastTravelType', 2, true]; call OT_fnc_newGameDialog;";
-            tooltip = "Fast travel will be disabled";
+            tooltip = "$STR_PARAMTERS_FAST_TRAVEL_TOOLTIP4";
         };
         class RscStructuredText_1103: RscOverthrowStructuredText {
             idc = 1103;
@@ -1459,7 +1459,7 @@ class OT_dialog_newgame {
             w = "0.0876563 * safeZoneW";
             h = "0.077 * safeZoneH";
             action = "server setVariable ['OT_fastTravelRules', 0, true]; call OT_fnc_newGameDialog;";
-            tooltip = "No rules for fast travel";
+            tooltip = "$STR_PARAMTERS_FAST_TRAVEL_TOOLTIP5";
         };
         class RscButton_1608: RscOverthrowButton {
             idc = 1608;
@@ -1470,7 +1470,7 @@ class OT_dialog_newgame {
             h = "0.077 * safeZoneH";
             color[] = {0, 0.8, 0, 1};
             action = "server setVariable ['OT_fastTravelRules', 1, true]; call OT_fnc_newGameDialog;";
-            tooltip = "Cannot fast travel while holding a weapon or carrying drugs";
+            tooltip = "$STR_PARAMTERS_FAST_TRAVEL_TOOLTIP6";
         };
         class RscButton_1609: RscOverthrowButton {
             idc = 1609;
@@ -1480,7 +1480,7 @@ class OT_dialog_newgame {
             w = "0.0876563 * safeZoneW";
             h = "0.077 * safeZoneH";
             action = "server setVariable ['OT_fastTravelRules', 2, true]; call OT_fnc_newGameDialog;";
-            tooltip = "Cannot fast travel while holding a weapon, carrying drugs, or in an offensive vehicle";
+            tooltip = "$STR_PARAMTERS_FAST_TRAVEL_TOOLTIP7";
         };
         class RscButton_1606: RscOverthrowButton {
             idc = 1606;
