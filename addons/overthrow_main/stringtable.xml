@@ -146,13 +146,73 @@
                 <Original>Transfers the contents of this vehicle into the closest container</Original>
                 <Portuguese>Transfere os items deste veiculo para o inventário mais próximo</Portuguese>
             </Key>
-            <Key ID="STR_PARAMTERS_ACE_BLOOD">
-                <Original>ACE Blood</Original>
-                <Portuguese>Sangue ACE</Portuguese>
+            <Key ID="STR_MAIN_CLOSE_MENU">
+                <Original>&lt;t align='center' font='PuristaBold' color='#FFFFFF'&gt;CLOSE MENU&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='center' font='PuristaBold' color='#FFFFFF'&gt;FECHAR MENU&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_MAIN_FAST_TRAVEL">
+                <Original>&lt;t size='1.5'&gt;Fast Travel&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='1.5'&gt;Viagem Rápida&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_MAIN_FAST_TRAVEL_RULES">
+                <Original>&lt;t size='1.5'&gt;Fast Travel Rules&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='1.5'&gt;Regras de Viagem Rápida&lt;/t&gt;</Portuguese>
             </Key>
             <Key ID="STR_PARAMTERS_ACE_MEDICAL_LEVEL">
                 <Original>ACE Medical Level</Original>
                 <Portuguese>Nivel de medicina ACE</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_AUTO_LOAD_TOGGLE">
+                <Original>Toggle Autoloading</Original>
+                <Portuguese>Ativar/Desativar carregamento automático</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_AUTO_LOAD_TOGGLE_DESC">
+                <Original>Autoload mission if on a dedicated server</Original>
+                <Portuguese>Carregar missão automaticamente se estiver em um servidor dedicado.</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_CHAR_SHEET">
+                <Original>Character Sheet</Original>
+                <Portuguese>Ficha do Personagem</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_CHAR_SHEET_DESC">
+                <Original>Upgrade your character</Original>
+                <Portuguese>Melhore o seu personagem</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_CIV_DECREASE">
+                <Original>Civ % --</Original>
+                <Portuguese>Civ % --o</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_CIV_DECREASE_DESC">
+                <Original>Decreases the amount of civilians that spawn in towns</Original>
+                <Portuguese>Diminui a quantidade de civis que aparecem nas cidades.</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_CIV_INCREASE">
+                <Original>Civ % ++</Original>
+                <Portuguese>Civ % ++</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_CIV_INCREASE_DESC">
+                <Original>Increases the amount of civilians that spawn in towns</Original>
+                <Portuguese>Aumenta a quantidade de civis que aparecem nas cidades.</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_CLEAR_DEAD">
+                <Original>Clean bodies/wrecks</Original>
+                <Portuguese>Limpar mortos/destroços</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_CLEAR_DEAD_DESC">
+                <Original>Will completely destroy all dead bodies, wrecks and vehicles that cannot move</Original>
+                <Portuguese>Destruirá completamente todos os cadáveres, destroços e veículos que não puderem se mover.</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_CLEAR_FOG">
+                <Original>Clean fog</Original>
+                <Portuguese>Limpar neblina</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_CLEAR_FOG_DESC">
+                <Original>Clears fog</Original>
+                <Portuguese>Limpa a neblina</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_DIFFICULTY">
+                <Original>&lt;t size='1.5'&gt;Difficulty&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='1.5'&gt;Dificuldade&lt;/t&gt;</Portuguese>
             </Key>
             <Key ID="STR_PARAMTERS_ENEMY_FACTION_TITLE">
                 <Original>Occupying faction</Original>
@@ -182,9 +242,85 @@
                 <Original>Gang Maximum Size</Original>
                 <Portuguese>Tamanho Maximo de Gangs</Portuguese>
             </Key>
+            <Key ID="STR_PARAMTERS_GARRISON">
+                <Original>Garrison</Original>
+                <Portuguese>Guarnição</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_LEASE">
+                <Original>Lease</Original>
+                <Portuguese>Alugar</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_LEASE_DESC">
+                <Original>Lease this building</Original>
+                <Portuguese>Alugue esta construção</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_LEVEL_BUY">
+                <Original>Increase Level (-10 Influence)</Original>
+                <Portuguese>Aumentar Nivel (-10 influencia)</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_MANAGE_RECRUITS">
+                <Original>Manage Recruits</Original>
+                <Portuguese>Gerenciar Recrutas</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_MANAGE_RECRUITS_DESC">
+                <Original>Manage recruits in your group</Original>
+                <Portuguese>Gerencie recrutas em seu grupo</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_MAP_INFO">
+                <Original>Map Info</Original>
+                <Portuguese>Informação do Mapa</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_MAP_INFO_DESC">
+                <Original>Retrieve information on town stability and more</Original>
+                <Portuguese>Obtenha informações sobre a estabilidade da cidade e muito mais</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_MISSION_EXPORT">
+                <Original>OVERTHROW MISSION EXPORT</Original>
+                <Portuguese>OVERTHROW EXPORTAR MISSÃO</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_PERSISTENT_AUTO_SAVE">
+                <Original>Autosave Toggle</Original>
+                <Portuguese>Ativar/Desativar salvamento automático</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_PERSISTENT_AUTO_SAVE_DESC">
+                <Original>Toggle between (0/5/10/15/30/45/60) minute autosaves.\n0 will disable autosaving!</Original>
+                <Portuguese>Alterne entre os intervalos de salvamento automático de (0/5/10/15/30/45/60) minutos.\n0 desativará o salvamento automático!</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_PERSISTENT_SAVE">
+                <Original>Persistent Save</Original>
+                <Portuguese>Save Persistente</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_PERSISTENT_SAVE_DESC">
+                <Original>A more secure save than default, this will work across updates of both Arma and Overthrow. To load this just restart the mission and choose ""load persistent"</Original>
+                <Portuguese>Uma opção de salvamento mais segura que a padrão, que funcionará em todas as atualizações de Arma e Overthrow. Para carregar este salvamento, basta reiniciar a missão e escolher ""carregar persistente".</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_PERSISTENT_SAVE_DESC1">
+                <Original>Persistent save, clear bodies/fog and more</Original>
+                <Portuguese>Salvamento persistente, limpeza de corpos/névoa e muito mais</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_PROCUREMENT">
+                <Original>Procurement</Original>
+                <Portuguese>Aquisições</Portuguese>
+            </Key>
             <Key ID="STR_PARAMTERS_RANDOM_NATO_GEAR">
                 <Original>Randomize NATO loadouts</Original>
                 <Portuguese>Randomizar equipamentos da NATO</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_RESISTENCE">
+                <Original>Resistance</Original>
+                <Portuguese>Resistencia</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_RESISTENCE_DESC">
+                <Original>Manage owned businesses and resistance funds</Original>
+                <Portuguese>Gerir empresas próprias e fundos de resistência.</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_SET_HOME">
+                <Original>Set Home</Original>
+                <Portuguese>Setar Casa</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_SET_HOME_DESC">
+                <Original>Make this your home (respawn point)</Original>
+                <Portuguese>Faça deste lugar o seu lar (ponto de reaparecimento)</Portuguese>
             </Key>
             <Key ID="STR_PARAMTERS_SHOW_ENEMY_MARKERS">
                 <Original>Show known enemy groups on map</Original>
@@ -210,6 +346,38 @@
                 <Original>Fast Travel Rules (Only with autoload)</Original>
                 <Portuguese>Regras de viagem rápida (Apenas com Auto carregamento)</Portuguese>
             </Key>
+            <Key ID="STR_PARAMTERS_TAX_DECREASE">
+                <Original>Tax % --</Original>
+                <Portuguese>Taxa % --</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_TAX_DECREASE_DESC">
+                <Original>Decreases the resistance tax rate</Original>
+                <Portuguese>Reduz a taxa de imposto da resistência.</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_TAX_INCREASE">
+                <Original>Tax % ++</Original>
+                <Portuguese>Taxa % ++</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_TAX_INCREASE_DESC">
+                <Original>Increases the resistance tax rate</Original>
+                <Portuguese>Aumenta a taxa de imposto da resistência</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_VEHICLE">
+                <Original>Vehicles</Original>
+                <Portuguese>Veiculos</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_VEHICLE_DESC">
+                <Original>List of all military vehicles and their state</Original>
+                <Portuguese>Lista de todos os veículos militares e seus respectivos estados.</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_ZEUS_TOGGLE">
+                <Original>Toggle Zeus</Original>
+                <Portuguese>Alternar Zeus</Portuguese>
+            </Key>
+            <Key ID="STR_PARAMTERS_ZEUS_TOGGLE_DESC">
+                <Original>Toggle between zeus access as the host</Original>
+                <Portuguese>Alternar entre o acesso Zeus como host</Portuguese>
+            </Key>
             <Key ID="STR_STATISTICS_ADVANCED">
                 <Original>Advanced</Original>
                 <Portuguese>Avançado</Portuguese>
@@ -221,6 +389,14 @@
             <Key ID="STR_STATISTICS_BASIC">
                 <Original>Basic</Original>
                 <Portuguese>Básico</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_BUILD">
+                <Original>Build</Original>
+                <Portuguese>Construir Grandes</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_BUILD_DESC">
+                <Original>Build structures in towns and at bases</Original>
+                <Portuguese>Construir estruturas em cidades ou em bases</Portuguese>
             </Key>
             <Key ID="STR_STATISTICS_BUY">
                 <Original>Buy</Original>
@@ -273,6 +449,10 @@
             <Key ID="STR_STATISTICS_JOBS">
                 <Original>Jobs</Original>
                 <Portuguese>Trabalhos</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_JOBS_DESC">
+                <Original>Jobs and tasks currently available</Original>
+                <Portuguese>Vagas e tarefas disponíveis no momento</Portuguese>
             </Key>
             <Key ID="STR_STATISTICS_KILLS">
                 <Original>Kills: %1/%2</Original>
@@ -333,6 +513,14 @@
             <Key ID="STR_STATISTICS_OVERTHROW_SET_MONEY">
                 <Original>Overthrow: Set Money</Original>
                 <Portuguese>Overthrow: Setar Dinheiro</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_PLACE">
+                <Original>Place</Original>
+                <Portuguese>Construir Pequenos</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_PLACE_DESC">
+                <Original>Place smaller items around houses you own or at friendly bases</Original>
+                <Portuguese>Construir items pequenos perto de casas que você tem ou em bases aliadas</Portuguese>
             </Key>
             <Key ID="STR_STATISTICS_PLAYERS_ONLY">
                 <Original>Players Only</Original>
@@ -402,21 +590,27 @@
         <Container name="Tutorials">
             <Key ID="STR_MISSION_TUTORIAL_01">
                 <Original>There doesnt seem to be any NATO nearby. Head to %1, you should be able to find some NATO there. It's marked on your map</Original>
+                <Portuguese>Não parece haver nenhuma base da OTAN por perto. Vá para %1, você deve conseguir encontrar alguma base da OTAN lá. Está marcada no seu mapa</Portuguese>
             </Key>
             <Key ID="STR_MISSION_TUTORIAL_02">
                 <Original>There is a group of NATO nearby, their position has been marked on your map. Let's show them we've had enough.</Original>
+                <Portuguese>Há um grupo da OTAN por perto; a posição deles está marcada no seu mapa. Vamos mostrar a eles que já chega.</Portuguese>
             </Key>
             <Key ID="STR_TUTORIAL_POP_UP">
                 <Original>Would you like a quick tutorial? (You will receive free items)</Original>
+                <Portuguese>Você gostaria de um breve tutorial? (Você receberá itens gratuitos)</Portuguese>
             </Key>
             <Key ID="STR_TUTORIAL_TOOLTIP_01">
                 <Original>Recommended for beginners playing solo</Original>
+                <Portuguese>Recomendado para iniciantes que jogam solo</Portuguese>
             </Key>
             <Key ID="STR_TUTORIAL_TOOLTIP_02">
                 <Original>Recommended for beginners playing in groups or experienced players solo</Original>
+                <Portuguese>Recomendado para iniciantes que jogam em grupo ou jogadores experientes que jogam sozinhos</Portuguese>
             </Key>
             <Key ID="STR_TUTORIAL_TOOLTIP_03">
                 <Original>For the hardcore</Original>
+                <Portuguese>Para os hardcore</Portuguese>
             </Key>
         </Container>
     </Package>
