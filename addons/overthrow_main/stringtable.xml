@@ -6,6 +6,46 @@
                 <Original>&lt;t align='center' size='1.1'&gt;%1 x %2&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='0.7'&gt;%3&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;Recipe:&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='0.7'&gt;%4&lt;/t&gt;&lt;br/&gt;</Original>
                 <Portuguese>&lt;t align='center' size='1.1'&gt;%1 x %2&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='0.7'&gt;%3&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;Receita:&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='0.7'&gt;%4&lt;/t&gt;&lt;br/&gt;</Portuguese>
             </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_FACTORY_REFRESH_01">
+                <Original>&lt;t size='0.8' align='center'&gt;Factory is not currently producing anything. Add to the queue above or Reverse-Engineer nearby items to gain blueprints.&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.8' align='center'&gt;Atualmente a fábrica não está produzindo nada. Adicione itens à fila acima ou realize engenharia reversa em itens próximos para obter blueprints.&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_FACTORY_REFRESH_02">
+                <Original>&lt;t size='0.8' align='center'&gt;Currently Producing&lt;/t&gt;&lt;br/&gt;&lt;t size='1.1' align='center'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.8' align='center'&gt;Produzindo Atualmente&lt;/t&gt;&lt;br/&gt;&lt;t size='1.1' align='center'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_FACTORY_REFRESH_03">
+                <Original>&lt;t size='0.65' align='center'&gt;Input: $%1 + &lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='0.65' align='center'&gt;Entrada: $%1 + &lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_FACTORY_REFRESH_04">
+                <Original>%1 x wood </Original>
+                <Portuguese>%1 x madeira </Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_FACTORY_REFRESH_05">
+                <Original>%1 x steel </Original>
+                <Portuguese>%1 x aço </Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_FACTORY_REFRESH_06">
+                <Original>%1 x plastic</Original>
+                <Portuguese>%1 x plástico</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_FACTORY_REFRESH_07">
+                <Original>Time: %1 of %2 mins&lt;br/&gt;</Original>
+                <Portuguese>Tempo: %1 de %2 mins&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_FACTORY_REFRESH_08">
+                <Original>Output: %1 x %2&lt;br/&gt;&lt;/t&gt;</Original>
+                <Portuguese>Saída: %1 x %2&lt;br/&gt;&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_FACTORY_REFRESH_09">
+                <Original>&lt;t size='0.65' align='center'&gt;Input: $%1 + &lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='0.65' align='center'&gt;Entrada: $%1 + &lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_FACTORY_REFRESH_10">
+                <Original>Time: %1 mins&lt;br/&gt;</Original>
+                <Portuguese>Tempo: %1 mins&lt;br/&gt;</Portuguese>
+            </Key>
             <Key ID="STR_DISPLAY_DISPLAY_JOB_DETAILS">
                 <Original>Expires in %1 hrs %2 mins</Original>
                 <Portuguese>Expira em %1 hrs %2 mins</Portuguese>
@@ -69,6 +109,42 @@
             <Key ID="STR_DISPLAY_DISPLAY_LOGISTICS_DETAILS_PARSED_14">
                 <Original>&lt;t align='center' size='1.2'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1'&gt;Owner: %2&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.7'&gt;%3&lt;/t&gt;</Original>
                 <Portuguese>&lt;t align='center' size='1.2'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1'&gt;Dono: %2&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.7'&gt;%3&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_SHOP_PIC_01">
+                <Original>Quad Bike w/ HMG Backpacks</Original>
+                <Portuguese>Quadriciculo com mochila HMG</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_SHOP_PIC_02">
+                <Original>A Quad-bike containing the backpacks required to set up a Static HMG</Original>
+                <Portuguese>Um quadriciculo com as mochilas para montar uma metralhadora estatica</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_SHOP_PIC_03">
+                <Original>All items required for this unit are available in the warehouse</Original>
+                <Portuguese>Todos os items requeridos para está unidade estão disponiveis no armazem</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_SHOP_PIC_04">
+                <Original>These items are not in the warehouse and must be purchased:&lt;br/&gt;%1</Original>
+                <Portuguese>Esses items não estão no armazem e precisam ser comprados:&lt;br/&gt;%1</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_SHOP_PIC_05">
+                <Original>Will recruit this squad into your High-Command bar, accessible with ctrl-space.</Original>
+                <Portuguese>Vai recrutar esta unidade para a sua barra de Alto comando, acessivel com ctrl-espaço.</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_SHOP_PIC_06">
+                <Original>Gets you from A to B, not guaranteed to stay upright.</Original>
+                <Portuguese>Te leva do ponto A ao B, não é garantido se manter estável.</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_SHOP_PIC_07">
+                <Original>Required: %1 x chemicals (%2 available)&lt;br/&gt;%3</Original>
+                <Portuguese>Requer: %1 x quimicos (%2 disponivel)&lt;br/&gt;%3</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_SHOP_PIC_08">
+                <Original>Not Available</Original>
+                <Portuguese>Não disponivel</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_WAREHOUSE_PIC_01">
+                <Original>&lt;t align='center' size='1.5'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1.2'&gt;%3 in stock&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;%2&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='center' size='1.5'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1.2'&gt;%3 em estoque&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;%2&lt;/t&gt;</Portuguese>
             </Key>
         </Container>
         <Container name="Paramters and Statistics">
