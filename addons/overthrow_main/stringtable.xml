@@ -414,10 +414,7 @@
                 <Original>&lt;t align='center' size='1.5'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1.2'&gt;%3 in stock&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;%2&lt;/t&gt;</Original>
                 <Portuguese>&lt;t align='center' size='1.5'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1.2'&gt;%3 em estoque&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;%2&lt;/t&gt;</Portuguese>
             </Key>
-            <Key ID="STR_FNC_NOTIFY_VEHICLE_01">
-                <Original>&lt;t align='left' size='1.2' color='#ffffff'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#bbbbbb' align='left'&gt;Owner: %2&lt;/t&gt;</Original>
-                <Portuguese>&lt;t align='left' size='1.2' color='#ffffff'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#bbbbbb' align='left'&gt;Dono: %2&lt;/t&gt;</Portuguese>
-            </Key>
+
         </Container>
         <Container name="Paramters and Statistics">
             <Key ID="STR_DIALOG_MAIN_ASSIGN_VEHICLE">
@@ -1048,11 +1045,11 @@
         <Container name="Tutorials">
             <Key ID="STR_MISSION_TUTORIAL_01">
                 <Original>There doesnt seem to be any NATO nearby. Head to %1, you should be able to find some NATO there. It's marked on your map</Original>
-                <Portuguese>Não parece haver nenhuma base da OTAN por perto. Vá para %1, você deve conseguir encontrar alguma base da OTAN lá. Está marcada no seu mapa</Portuguese>
+                <Portuguese>Não parece haver nenhuma base da NATO por perto. Vá para %1, você deve conseguir encontrar alguma base da NATO lá. Está marcada no seu mapa</Portuguese>
             </Key>
             <Key ID="STR_MISSION_TUTORIAL_02">
                 <Original>There is a group of NATO nearby, their position has been marked on your map. Let's show them we've had enough.</Original>
-                <Portuguese>Há um grupo da OTAN por perto; a posição deles está marcada no seu mapa. Vamos mostrar a eles que já chega.</Portuguese>
+                <Portuguese>Há um grupo da NATO por perto; a posição deles está marcada no seu mapa. Vamos mostrar a eles que já chega.</Portuguese>
             </Key>
             <Key ID="STR_MISSION_TUTORIAL_DRUGS_01">
                 <Original>There doesnt seem to be any civilians nearby. Head to %1, you should be able to find some there. It's marked on your map</Original>
@@ -1097,6 +1094,214 @@
             <Key ID="STR_TUTORIAL_TOOLTIP_03">
                 <Original>For the hardcore</Original>
                 <Portuguese>Para os hardcore</Portuguese>
+            </Key>
+        </Container>
+        <Container name="Missions">
+            <Key ID="STR_MISSION_CAPTURE_TOWN_01">
+                <Original>The town will get a small boost in stability as %1 helps quell the populace.<br/><t size='0.9'>Reward: $2,500 resistance funds, +10 (%1)</t></Original>
+                <Portuguese>A cidade receberá um pequeno impulso em estabilidade, já que %1 ajuda a acalmar a população.<br/><t size='0.9'>Recompensa: $2.500 em fundos de resistência, +10 (%1)</t></Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_CAPTURE_TOWN_02">
+                <Original>%1 would prefer if %2 was controlled by the resistance. Drop stability in that town by killing Gendarmerie or doing other jobs until it reaches %0. <br/><br/>%3</Original>
+                <Portuguese>%1 preferiria que %2 fosse controlada pela resistência. Diminua a estabilidade dessa cidade matando policiais ou realizando outras tarefas até que ela chegue a %0. <br/><br/>%3</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_CAPTURE_TOWN_03">
+                <Original>Capture %1 for %2</Original>
+                <Portuguese>Capture %1 para %2</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_CAPTURE_TOWN_04">
+                <Original>Incoming message from %1: %2 captured. Donating $2500 to the resistance and will help with efforts to ease the local populace. (+10 stability, +10 %1)</Original>
+                <Portuguese>Mensagem recebida de %1: %2 capturado. Doando $2500 para a resistência, o que ajudará nos esforços para aliviar a situação da população local. (+10 de estabilidade, +10 %1)</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_FACTION_WEAPONS_01">
+                <Original>%1 requests %2 x %3. Deliver them to the marked location using any vehicle, just pull up with the weapons in the inventory and you will be paid for them, including any extras of the same type. </t><br/><br/><t size='0.9'>Reward: +5 (%1), export value of weapons</Original>
+                <Portuguese>%1 solicita %2 x %3. Entregue-os no local marcado usando qualquer veículo; basta chegar com as armas no inventário e você será pago por elas, incluindo quaisquer extras do mesmo tipo. </t><br/><br/><t size='0.9'>Recompensa: +5 (%1), valor de exportação das armas</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_FACTION_WEAPONS_02">
+                <Original>%1 requests %2 x %3</Original>
+                <Portuguese>%1 solicita %2 x %3</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_FUGITIVE_01">
+                <Original>A traitor of %1 has fled here and is hiding in %2 under NATO protection. %1 will pay handsomely and be very grateful if you could just.. make them disappear. <br/><br/>Reward: +20 (%1), $2500</Original>
+                <Portuguese>Um traidor de %1 fugiu para cá e está se escondendo em %2 sob proteção da NATO. %1 pagará generosamente e ficará muito grato se você puder... fazê-lo desaparecer. <br/><br/>Recompensa: +20 (%1), $2500</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_FUGITIVE_02">
+                <Original>%1 Traitor in %2</Original>
+                <Portuguese>%1 Traidor em %2</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_FUGITIVE_03">
+                <Original>Incoming message from %1: Traitor has been alerted.</Original>
+                <Portuguese>Mensagem recebida de %1: O traidor foi alertado.</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_FUGITIVE_04">
+                <Original>Incoming message from %1: Traitor neutralized. Sending our regards and $2500 to the resistance. (+20 %1)</Original>
+                <Portuguese>Mensagem recebida de %1: Traidor neutralizado. Nossos cumprimentos e $2500 para a resistência. (+20 %1)</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_GANG_DRUG_RUN_01">
+                <Original>We need someone to deliver %1 x Ganja to a customer in %2. You have 6 hours.</t><br/><br/><t size='0.9' align='center'>Reward: +5 rep (%3), $%4</Original>
+                <Portuguese>Precisamos de alguém para entregar %1 x Ganja a um cliente em %2. Você tem 6 horas.</t><br/><br/><t size='0.9' align='center'>Recompensa: +5 de reputação (%3), $%4</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_GANG_DRUG_RUN_02">
+                <Original>Deliver %2 x Ganja for %1</Original>
+                <Portuguese>Entregue %2 x Ganja para %1</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_GANG_DRUG_RUN_03">
+                <Original>You don't have enough room in your inventory for the Ganja</Original>
+                <Portuguese>Você não tem espaço suficiente no seu inventário para a Ganja</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_GANG_DRUG_RUN_04">
+                <Original>%1 x Ganja added to inventory</Original>
+                <Portuguese>%1 x Ganja adicionado ao inventário</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_GANG_DRUG_RUN_05">
+                <Original>Delivered %1 x Ganja</Original>
+                <Portuguese>Entregou %1 x Ganja</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_GANG_DRUG_RUN_06">
+                <Original>Failed delivery of %1 x Ganja</Original>
+                <Portuguese>Entrega de %1 x Ganja não realizada</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_GANG_WEAPON_RUN_01">
+                <Original>We need someone to deliver a %1 to a customer in %2. You have 6 hours.</t><br/><br/><t size='0.9' align='center'>Reward: +5 rep (%3), $%4</Original>
+                <Portuguese>Precisamos de alguém para entregar %1 a um cliente em %2. Você tem 6 horas.</t><br/><br/><t size='0.9' align='center'>Recompensa: +5 de reputação (%3), $%4</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_GANG_WEAPON_RUN_02">
+                <Original>Deliver %2 for %1</Original>
+                <Portuguese>Entregue %2 para %1</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_GANG_WEAPON_RUN_03">
+                <Original>You don't have enough room in your inventory for the gun</Original>
+                <Portuguese>Você não tem espaço suficiente no seu inventário para a arma</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_GANG_WEAPON_RUN_04">
+                <Original>%1 added to inventory</Original>
+                <Portuguese>%1 adicionado ao inventário</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_GANG_WEAPON_RUN_05">
+                <Original>Delivered %1</Original>
+                <Portuguese>Entregou %1</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_GANG_WEAPON_RUN_06">
+                <Original>Failed delivery of %1</Original>
+                <Portuguese>Falha na entrega de %1</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_HVT_01">
+                <Original>We have received intel that a NATO officer is currently stationed at %1.<br/><br/>If this officer is killed, NATO's resources will be low for some time, reducing the severity of any QRF deployments.</Original>
+                <Portuguese>Recebemos informações de que um oficial da NATO está atualmente destacado em %1.<br/><br/>Se este oficial for morto, os recursos da NATO ficarão escassos por algum tempo, reduzindo a intensidade de quaisquer destacamentos da Força de Resposta Rápida.</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_HVT_02">
+                <Original>NATO Officer at %1</Original>
+                <Portuguese>Oficial da NATO em %1</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_INFORMANT_01">
+                <Original>A defector from the resistance is hiding in %1 under NATO protection and giving them sensitive information. He needs to be silenced. <br/><br/>Reward: $1500</Original>
+                <Portuguese>Um desertor da resistência está escondido em %1 sob proteção da NATO e fornecendo informações confidenciais. Ele precisa ser silenciado. <br/><br/>Recompensa: $1500</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_INFORMANT_02">
+                <Original>NATO informant in %1</Original>
+                <Portuguese>Informante da NATO em %1</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_INFORMANT_03">
+                <Original>NATO Informant has been alerted.</Original>
+                <Portuguese>Informante da NATO foi alertado.</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_INFORMANT_04">
+                <Original>NATO Informant in %1 has been taken care of</Original>
+                <Portuguese>O informante da NATO em %1 foi neutralizado.</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_KILL_01">
+                <Original>Kill NATO</Original>
+                <Portuguese>Elimine NATO</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_KILL_02">
+                <Original>Nothing spurs on the resistance more than just killing some blues. There is a group of %1 NATO within 300m of here, go find them and take care of them.<br/><br/>Reward: $%2</Original>
+                <Portuguese>Nada motiva mais a resistência do que matar alguns azuis. Há um grupo de %1 da NATO a 300 metros daqui, encontre-os e acabe com eles.<br/><br/>Recompensa: $%2</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_KILL_03">
+                <Original>Kills %1/%2</Original>
+                <Portuguese>Mortes %1/%2</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_MEDICAL_SUPPLIES_01">
+                <Original>Stability in the town will decrease and the local community will support the resistance more (+25 support).</Original>
+                <Portuguese>A estabilidade na cidade diminuirá e a comunidade local apoiará mais a resistência (+25 de apoio).</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_MEDICAL_SUPPLIES_02">
+                <Original>Stability in the town will increase and the local community will support the resistance more (+25 support).</Original>
+                <Portuguese>A estabilidade na cidade aumentará e a comunidade local apoiará mais a resistência (+25 de apoio).</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_MEDICAL_SUPPLIES_03">
+                <Original>%1 is in need of medical supplies. Deliver %2 x %3 to the marked location using any vehicle, just pull up with the items in the inventory. <br/><br/>%4</Original>
+                <Portuguese>%1 precisa de suprimentos médicos. Entregue %2 x %3 no local indicado usando qualquer veículo, basta chegar com os itens do inventário. <br/><br/>%4</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_MEDICAL_SUPPLIES_04">
+                <Original>%1 needs %2 x %3</Original>
+                <Portuguese>%1 precisa %2 x %3</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_MEDICAL_SUPPLIES_05">
+                <Original>Delivered %1 x %2 medical supplies</Original>
+                <Portuguese>Entregaram %1 x %2 suprimentos médicos</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_NATO_MISSIONS_01">
+                <Original>We have received intel that NATO will be running a convoy from %1 to %2 at approximately %3:00 today.</Original>
+                <Portuguese>Recebemos informações de que a NATO realizará um comboio de %1 para %2 por volta das %3:00 de hoje.</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_NATO_MISSIONS_02">
+                <Original>NATO Convoy from %1 to %2</Original>
+                <Portuguese>Comboio da NATO de %1 para %2</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_RECON_BASE_01">
+                <Original><t size='0.9'>Reward: $500 to player closest to base</t></Original>
+                <Portuguese><t size='0.9'>Recompensa: $500 ao jogador mais próximo da base</t></Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_RECON_BASE_02">
+                <Original>Get information on the NATO forces and vehicles garrisoned at %1. A pair of Binoculars or Rangefinder may come in handy. Be careful not to get too close as NATO bases are restricted areas.<br/><br/>%2</Original>
+                <Portuguese>Obtenha informações sobre as forças e veículos da NATO estacionados em %1. Um par de binóculos ou um telêmetro podem ser úteis. Tenha cuidado para não se aproximar demais, pois as bases da NATO são áreas restritas.<br/><br/>%2</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_RECON_BASE_03">
+                <Original>Recon of %1</Original>
+                <Portuguese>Reconhecimento de %1</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_RECON_BASE_04">
+                <Original>%2 units spotted at %1</Original>
+                <Portuguese>%2 unidades detectadas em %1</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_RECON_BASE_05">
+                <Original>Recon report (%1)<br/></Original>
+                <Portuguese>Relatório de reconhecimento (%1)<br/></Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_RECON_BASE_06">
+                <Original>%1 x Soldiers<br/></Original>
+                <Portuguese>%1 x Soldados<br/></Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_SHOP_DELIVERY_01">
+                <Original>I need someone to deliver %1 x %2 to a customer in %3. You have 6 hours.</t><br/><br/><t size='0.9' align='center'>Reward: $%4, +2 Resistance Support</Original>
+                <Portuguese>Preciso de alguém para entregar %1 x %2 a um cliente em %3. Você tem 6 horas.</t><br/><br/><t size='0.9' align='center'>Recompensa: $%4, +2 de Suporte de Resistência</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_SHOP_DELIVERY_02">
+                <Original>Deliver %1 x %2 for %3 store in %4</Original>
+                <Portuguese>Entregue %1 x %2 para %3 loja em %4</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_SHOP_DELIVERY_03">
+                <Original>You don't have enough room in your inventory for the items</Original>
+                <Portuguese>Você não tem espaço suficiente no seu inventário para os itens</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_SHOP_DELIVERY_04">
+                <Original>%1 x %2 added to inventory</Original>
+                <Portuguese>%1 x %2 adicionado ao inventário</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_SHOP_DELIVERY_05">
+                <Original>Delivered %1 x %2</Original>
+                <Portuguese>Entregou %1 x %2</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_SHOP_DELIVERY_06">
+                <Original>Failed Delivery of %1 x %2</Original>
+                <Portuguese>Falhou Entrega de %1 x %2</Portuguese>
+            </Key>
+        </Container>
+        <Container name="Functions">
+            <Key ID="STR_FNC_NOTIFY_VEHICLE_01">
+                <Original>&lt;t align='left' size='1.2' color='#ffffff'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#bbbbbb' align='left'&gt;Owner: %2&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='1.2' color='#ffffff'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#bbbbbb' align='left'&gt;Dono: %2&lt;/t&gt;</Portuguese>
             </Key>
         </Container>
     </Package>
