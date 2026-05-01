@@ -1098,12 +1098,12 @@
         </Container>
         <Container name="Missions">
             <Key ID="STR_MISSION_CAPTURE_TOWN_01">
-                <Original>The town will get a small boost in stability as %1 helps quell the populace.<br/><t size='0.9'>Reward: $2,500 resistance funds, +10 (%1)</t></Original>
-                <Portuguese>A cidade receberá um pequeno impulso em estabilidade, já que %1 ajuda a acalmar a população.<br/><t size='0.9'>Recompensa: $2.500 em fundos de resistência, +10 (%1)</t></Portuguese>
+                <Original>The town will get a small boost in stability as %1 helps quell the populace.&lt;br/&gt;&lt;t size='0.9'&gt;Reward: $2,500 resistance funds, +10 (%1)&lt;/t&gt;</Original>
+                <Portuguese>A cidade receberá um pequeno impulso em estabilidade, já que %1 ajuda a acalmar a população.&lt;br/&gt;&lt;t size='0.9'&gt;Recompensa: $2.500 em fundos de resistência, +10 (%1)&lt;/t&gt;</Portuguese>
             </Key>
             <Key ID="STR_MISSION_CAPTURE_TOWN_02">
-                <Original>%1 would prefer if %2 was controlled by the resistance. Drop stability in that town by killing Gendarmerie or doing other jobs until it reaches %0. <br/><br/>%3</Original>
-                <Portuguese>%1 preferiria que %2 fosse controlada pela resistência. Diminua a estabilidade dessa cidade matando policiais ou realizando outras tarefas até que ela chegue a %0. <br/><br/>%3</Portuguese>
+                <Original>%1 would prefer if %2 was controlled by the resistance. Drop stability in that town by killing Gendarmerie or doing other jobs until it reaches %0. &lt;br/&gt;&lt;br/&gt;%3</Original>
+                <Portuguese>%1 preferiria que %2 fosse controlada pela resistência. Diminua a estabilidade dessa cidade matando policiais ou realizando outras tarefas até que ela chegue a %0. &lt;br/&gt;&lt;br/&gt;%3</Portuguese>
             </Key>
             <Key ID="STR_MISSION_CAPTURE_TOWN_03">
                 <Original>Capture %1 for %2</Original>
@@ -1114,16 +1114,16 @@
                 <Portuguese>Mensagem recebida de %1: %2 capturado. Doando $2500 para a resistência, o que ajudará nos esforços para aliviar a situação da população local. (+10 de estabilidade, +10 %1)</Portuguese>
             </Key>
             <Key ID="STR_MISSION_FACTION_WEAPONS_01">
-                <Original>%1 requests %2 x %3. Deliver them to the marked location using any vehicle, just pull up with the weapons in the inventory and you will be paid for them, including any extras of the same type. </t><br/><br/><t size='0.9'>Reward: +5 (%1), export value of weapons</Original>
-                <Portuguese>%1 solicita %2 x %3. Entregue-os no local marcado usando qualquer veículo; basta chegar com as armas no inventário e você será pago por elas, incluindo quaisquer extras do mesmo tipo. </t><br/><br/><t size='0.9'>Recompensa: +5 (%1), valor de exportação das armas</Portuguese>
+                <Original>%1 requests %2 x %3. Deliver them to the marked location using any vehicle, just pull up with the weapons in the inventory and you will be paid for them, including any extras of the same type. &lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.9'&gt;Reward: +5 (%1), export value of weapons</Original>
+                <Portuguese>%1 solicita %2 x %3. Entregue-os no local marcado usando qualquer veículo; basta chegar com as armas no inventário e você será pago por elas, incluindo quaisquer extras do mesmo tipo. &lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.9'&gt;Recompensa: +5 (%1), valor de exportação das armas</Portuguese>
             </Key>
             <Key ID="STR_MISSION_FACTION_WEAPONS_02">
                 <Original>%1 requests %2 x %3</Original>
                 <Portuguese>%1 solicita %2 x %3</Portuguese>
             </Key>
             <Key ID="STR_MISSION_FUGITIVE_01">
-                <Original>A traitor of %1 has fled here and is hiding in %2 under NATO protection. %1 will pay handsomely and be very grateful if you could just.. make them disappear. <br/><br/>Reward: +20 (%1), $2500</Original>
-                <Portuguese>Um traidor de %1 fugiu para cá e está se escondendo em %2 sob proteção da NATO. %1 pagará generosamente e ficará muito grato se você puder... fazê-lo desaparecer. <br/><br/>Recompensa: +20 (%1), $2500</Portuguese>
+                <Original>A traitor of %1 has fled here and is hiding in %2 under NATO protection. %1 will pay handsomely and be very grateful if you could just.. make them disappear. &lt;br/&gt;&lt;br/&gt;Reward: +20 (%1), $2500</Original>
+                <Portuguese>Um traidor de %1 fugiu para cá e está se escondendo em %2 sob proteção da NATO. %1 pagará generosamente e ficará muito grato se você puder... fazê-lo desaparecer. &lt;br/&gt;&lt;br/&gt;Recompensa: +20 (%1), $2500</Portuguese>
             </Key>
             <Key ID="STR_MISSION_FUGITIVE_02">
                 <Original>%1 Traitor in %2</Original>
@@ -1138,8 +1138,8 @@
                 <Portuguese>Mensagem recebida de %1: Traidor neutralizado. Nossos cumprimentos e $2500 para a resistência. (+20 %1)</Portuguese>
             </Key>
             <Key ID="STR_MISSION_GANG_DRUG_RUN_01">
-                <Original>We need someone to deliver %1 x Ganja to a customer in %2. You have 6 hours.</t><br/><br/><t size='0.9' align='center'>Reward: +5 rep (%3), $%4</Original>
-                <Portuguese>Precisamos de alguém para entregar %1 x Ganja a um cliente em %2. Você tem 6 horas.</t><br/><br/><t size='0.9' align='center'>Recompensa: +5 de reputação (%3), $%4</Portuguese>
+                <Original>We need someone to deliver %1 x Ganja to a customer in %2. You have 6 hours.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.9' align='center'&gt;Reward: +5 rep (%3), $%4</Original>
+                <Portuguese>Precisamos de alguém para entregar %1 x Ganja a um cliente em %2. Você tem 6 horas.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.9' align='center'&gt;Recompensa: +5 de reputação (%3), $%4</Portuguese>
             </Key>
             <Key ID="STR_MISSION_GANG_DRUG_RUN_02">
                 <Original>Deliver %2 x Ganja for %1</Original>
@@ -1162,8 +1162,8 @@
                 <Portuguese>Entrega de %1 x Ganja não realizada</Portuguese>
             </Key>
             <Key ID="STR_MISSION_GANG_WEAPON_RUN_01">
-                <Original>We need someone to deliver a %1 to a customer in %2. You have 6 hours.</t><br/><br/><t size='0.9' align='center'>Reward: +5 rep (%3), $%4</Original>
-                <Portuguese>Precisamos de alguém para entregar %1 a um cliente em %2. Você tem 6 horas.</t><br/><br/><t size='0.9' align='center'>Recompensa: +5 de reputação (%3), $%4</Portuguese>
+                <Original>We need someone to deliver a %1 to a customer in %2. You have 6 hours.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.9' align='center'&gt;Reward: +5 rep (%3), $%4</Original>
+                <Portuguese>Precisamos de alguém para entregar %1 a um cliente em %2. Você tem 6 horas.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.9' align='center'&gt;Recompensa: +5 de reputação (%3), $%4</Portuguese>
             </Key>
             <Key ID="STR_MISSION_GANG_WEAPON_RUN_02">
                 <Original>Deliver %2 for %1</Original>
@@ -1186,16 +1186,16 @@
                 <Portuguese>Falha na entrega de %1</Portuguese>
             </Key>
             <Key ID="STR_MISSION_HVT_01">
-                <Original>We have received intel that a NATO officer is currently stationed at %1.<br/><br/>If this officer is killed, NATO's resources will be low for some time, reducing the severity of any QRF deployments.</Original>
-                <Portuguese>Recebemos informações de que um oficial da NATO está atualmente destacado em %1.<br/><br/>Se este oficial for morto, os recursos da NATO ficarão escassos por algum tempo, reduzindo a intensidade de quaisquer destacamentos da Força de Resposta Rápida.</Portuguese>
+                <Original>We have received intel that a NATO officer is currently stationed at %1.&lt;br/&gt;&lt;br/&gt;If this officer is killed, NATO's resources will be low for some time, reducing the severity of any QRF deployments.</Original>
+                <Portuguese>Recebemos informações de que um oficial da NATO está atualmente destacado em %1.&lt;br/&gt;&lt;br/&gt;Se este oficial for morto, os recursos da NATO ficarão escassos por algum tempo, reduzindo a intensidade de quaisquer destacamentos da Força de Resposta Rápida.</Portuguese>
             </Key>
             <Key ID="STR_MISSION_HVT_02">
                 <Original>NATO Officer at %1</Original>
                 <Portuguese>Oficial da NATO em %1</Portuguese>
             </Key>
             <Key ID="STR_MISSION_INFORMANT_01">
-                <Original>A defector from the resistance is hiding in %1 under NATO protection and giving them sensitive information. He needs to be silenced. <br/><br/>Reward: $1500</Original>
-                <Portuguese>Um desertor da resistência está escondido em %1 sob proteção da NATO e fornecendo informações confidenciais. Ele precisa ser silenciado. <br/><br/>Recompensa: $1500</Portuguese>
+                <Original>A defector from the resistance is hiding in %1 under NATO protection and giving them sensitive information. He needs to be silenced. &lt;br/&gt;&lt;br/&gt;Reward: $1500</Original>
+                <Portuguese>Um desertor da resistência está escondido em %1 sob proteção da NATO e fornecendo informações confidenciais. Ele precisa ser silenciado. &lt;br/&gt;&lt;br/&gt;Recompensa: $1500</Portuguese>
             </Key>
             <Key ID="STR_MISSION_INFORMANT_02">
                 <Original>NATO informant in %1</Original>
@@ -1214,8 +1214,8 @@
                 <Portuguese>Elimine NATO</Portuguese>
             </Key>
             <Key ID="STR_MISSION_KILL_02">
-                <Original>Nothing spurs on the resistance more than just killing some blues. There is a group of %1 NATO within 300m of here, go find them and take care of them.<br/><br/>Reward: $%2</Original>
-                <Portuguese>Nada motiva mais a resistência do que matar alguns azuis. Há um grupo de %1 da NATO a 300 metros daqui, encontre-os e acabe com eles.<br/><br/>Recompensa: $%2</Portuguese>
+                <Original>Nothing spurs on the resistance more than just killing some blues. There is a group of %1 NATO within 300m of here, go find them and take care of them.&lt;br/&gt;&lt;br/&gt;Reward: $%2</Original>
+                <Portuguese>Nada motiva mais a resistência do que matar alguns azuis. Há um grupo de %1 da NATO a 300 metros daqui, encontre-os e acabe com eles.&lt;br/&gt;&lt;br/&gt;Recompensa: $%2</Portuguese>
             </Key>
             <Key ID="STR_MISSION_KILL_03">
                 <Original>Kills %1/%2</Original>
@@ -1230,8 +1230,8 @@
                 <Portuguese>A estabilidade na cidade aumentará e a comunidade local apoiará mais a resistência (+25 de apoio).</Portuguese>
             </Key>
             <Key ID="STR_MISSION_MEDICAL_SUPPLIES_03">
-                <Original>%1 is in need of medical supplies. Deliver %2 x %3 to the marked location using any vehicle, just pull up with the items in the inventory. <br/><br/>%4</Original>
-                <Portuguese>%1 precisa de suprimentos médicos. Entregue %2 x %3 no local indicado usando qualquer veículo, basta chegar com os itens do inventário. <br/><br/>%4</Portuguese>
+                <Original>%1 is in need of medical supplies. Deliver %2 x %3 to the marked location using any vehicle, just pull up with the items in the inventory. &lt;br/&gt;&lt;br/&gt;%4</Original>
+                <Portuguese>%1 precisa de suprimentos médicos. Entregue %2 x %3 no local indicado usando qualquer veículo, basta chegar com os itens do inventário. &lt;br/&gt;&lt;br/&gt;%4</Portuguese>
             </Key>
             <Key ID="STR_MISSION_MEDICAL_SUPPLIES_04">
                 <Original>%1 needs %2 x %3</Original>
@@ -1250,12 +1250,12 @@
                 <Portuguese>Comboio da NATO de %1 para %2</Portuguese>
             </Key>
             <Key ID="STR_MISSION_RECON_BASE_01">
-                <Original><t size='0.9'>Reward: $500 to player closest to base</t></Original>
-                <Portuguese><t size='0.9'>Recompensa: $500 ao jogador mais próximo da base</t></Portuguese>
+                <Original>&lt;t size='0.9'&gt;Reward: $500 to player closest to base&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='0.9'&gt;Recompensa: $500 ao jogador mais próximo da base&lt;/t&gt;</Portuguese>
             </Key>
             <Key ID="STR_MISSION_RECON_BASE_02">
-                <Original>Get information on the NATO forces and vehicles garrisoned at %1. A pair of Binoculars or Rangefinder may come in handy. Be careful not to get too close as NATO bases are restricted areas.<br/><br/>%2</Original>
-                <Portuguese>Obtenha informações sobre as forças e veículos da NATO estacionados em %1. Um par de binóculos ou um telêmetro podem ser úteis. Tenha cuidado para não se aproximar demais, pois as bases da NATO são áreas restritas.<br/><br/>%2</Portuguese>
+                <Original>Get information on the NATO forces and vehicles garrisoned at %1. A pair of Binoculars or Rangefinder may come in handy. Be careful not to get too close as NATO bases are restricted areas.&lt;br/&gt;&lt;br/&gt;%2</Original>
+                <Portuguese>Obtenha informações sobre as forças e veículos da NATO estacionados em %1. Um par de binóculos ou um telêmetro podem ser úteis. Tenha cuidado para não se aproximar demais, pois as bases da NATO são áreas restritas.&lt;br/&gt;&lt;br/&gt;%2</Portuguese>
             </Key>
             <Key ID="STR_MISSION_RECON_BASE_03">
                 <Original>Recon of %1</Original>
@@ -1266,16 +1266,16 @@
                 <Portuguese>%2 unidades detectadas em %1</Portuguese>
             </Key>
             <Key ID="STR_MISSION_RECON_BASE_05">
-                <Original>Recon report (%1)<br/></Original>
-                <Portuguese>Relatório de reconhecimento (%1)<br/></Portuguese>
+                <Original>Recon report (%1)&lt;br/&gt;</Original>
+                <Portuguese>Relatório de reconhecimento (%1)&lt;br/&gt;</Portuguese>
             </Key>
             <Key ID="STR_MISSION_RECON_BASE_06">
-                <Original>%1 x Soldiers<br/></Original>
-                <Portuguese>%1 x Soldados<br/></Portuguese>
+                <Original>%1 x Soldiers&lt;br/&gt;</Original>
+                <Portuguese>%1 x Soldados&lt;br/&gt;</Portuguese>
             </Key>
             <Key ID="STR_MISSION_SHOP_DELIVERY_01">
-                <Original>I need someone to deliver %1 x %2 to a customer in %3. You have 6 hours.</t><br/><br/><t size='0.9' align='center'>Reward: $%4, +2 Resistance Support</Original>
-                <Portuguese>Preciso de alguém para entregar %1 x %2 a um cliente em %3. Você tem 6 horas.</t><br/><br/><t size='0.9' align='center'>Recompensa: $%4, +2 de Suporte de Resistência</Portuguese>
+                <Original>I need someone to deliver %1 x %2 to a customer in %3. You have 6 hours.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.9' align='center'&gt;Reward: $%4, +2 Resistance Support</Original>
+                <Portuguese>Preciso de alguém para entregar %1 x %2 a um cliente em %3. Você tem 6 horas.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.9' align='center'&gt;Recompensa: $%4, +2 de Suporte de Resistência</Portuguese>
             </Key>
             <Key ID="STR_MISSION_SHOP_DELIVERY_02">
                 <Original>Deliver %1 x %2 for %3 store in %4</Original>
