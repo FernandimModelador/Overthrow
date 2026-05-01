@@ -2,12 +2,12 @@ disableSerialization;
 
 private _currentCls = server getVariable ["GEURproducing", ""];
 
-private _text = localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_01";
+private _text = localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_01";
 
 if (_currentCls != "") then {
     private _currentName = _currentCls call OT_fnc_getClassDisplayName;
 
-    _text = format [localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_02", _currentName];
+    _text = format [localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_02", _currentName];
 
     private _cost = cost getVariable [_currentCls, []];
     if (_cost isNotEqualTo []) then {
@@ -44,19 +44,19 @@ if (_currentCls != "") then {
             _numtoproduce = round (1 / _plastic);
             _plastic = 1;
         };
-        _text = _text + format [localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_03", round ((_base * _numtoproduce) * 0.8)];
+        _text = _text + format [localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_03", round ((_base * _numtoproduce) * 0.8)];
         if (_wood > 0) then {
-            _text = _text + format [localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_04", _wood];
+            _text = _text + format [localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_04", _wood];
         };
         if (_steel > 0) then {
-            _text = _text + format [localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_05", _steel];
+            _text = _text + format [localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_05", _steel];
         };
         if (_plastic > 0) then {
-            _text = _text + format [localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_06", _plastic];
+            _text = _text + format [localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_06", _plastic];
         };
         _text = _text + "<br/>";
-        _text = _text + format [localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_07", _timespent, round (_timetoproduce / OT_factoryProductionMulti)];
-        _text = _text + format [localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_08", _numtoproduce, _currentName];
+        _text = _text + format [localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_07", _timespent, round (_timetoproduce / OT_factoryProductionMulti)];
+        _text = _text + format [localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_08", _numtoproduce, _currentName];
     };
 };
 
@@ -110,19 +110,19 @@ if (_cost isNotEqualTo []) then {
         _numtoproduce = round (1 / _plastic);
         _plastic = 1;
     };
-    _recipe = format [localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_09", round ((_base * _numtoproduce) * 0.6)];
+    _recipe = format [localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_09", round ((_base * _numtoproduce) * 0.6)];
     if (_wood > 0) then {
-        _recipe = _recipe + format [localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_04", _wood];
+        _recipe = _recipe + format [localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_04", _wood];
     };
     if (_steel > 0) then {
-        _recipe = _recipe + format [localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_05", _steel];
+        _recipe = _recipe + format [localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_05", _steel];
     };
     if (_plastic > 0) then {
-        _recipe = _recipe + format [localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_06", _plastic];
+        _recipe = _recipe + format [localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_06", _plastic];
     };
     _recipe = _recipe + "<br/>";
-    _recipe = _recipe + format [localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_10", round (_timetoproduce / OT_factoryProductionMulti)];
-    _recipe = _recipe + format [localize "$STR_DISPLAY_DISPLAY_FACTORY_REFRESH_08", _numtoproduce, _txt];
+    _recipe = _recipe + format [localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_10", round (_timetoproduce / OT_factoryProductionMulti)];
+    _recipe = _recipe + format [localize "STR_DISPLAY_DISPLAY_FACTORY_REFRESH_08", _numtoproduce, _txt];
 };
 
 ((findDisplay 8000) displayCtrl 1100) ctrlSetStructuredText parseText format [

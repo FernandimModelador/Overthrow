@@ -33,7 +33,7 @@ if (_def isNotEqualTo []) then {
     ([_cls, true] call OT_fnc_getClassDisplayInfo) params ["_pic", "_itemName", "_desc"];
 
     _textctrl ctrlSetStructuredText parseText format [ 
-        localize "$STR_DISPLAY_CRAFTITEM",
+        localize "STR_DISPLAY_CRAFTITEM",
         _qty,
         _itemName,
         _desc,

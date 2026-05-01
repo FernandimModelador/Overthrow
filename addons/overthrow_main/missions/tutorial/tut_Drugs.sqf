@@ -24,7 +24,7 @@ if (_targets isEqualTo []) exitWith {
         //give waypoint
         [player, _destination, _town] call OT_fnc_givePlayerWaypoint;
 
-        format [localize "$STR_MISSION_TUTORIAL_DRUGS_01", _town] call OT_fnc_notifyMinor;
+        format [localize "STR_MISSION_TUTORIAL_DRUGS_01", _town] call OT_fnc_notifyMinor;
 
         [
             {
@@ -46,7 +46,7 @@ if (_targets isEqualTo []) exitWith {
     };
 };
 
-localize "$STR_MISSION_TUTORIAL_DRUGS_02" call OT_fnc_notifyMinor;
+localize "STR_MISSION_TUTORIAL_DRUGS_02" call OT_fnc_notifyMinor;
 //pick the closest group and reveal
 
 private _sorted = [_targets, [], { _x distance player }, "ASCEND"] call BIS_fnc_sortBy;
@@ -64,7 +64,7 @@ private _loopCode = {
         _wp setWaypointPosition [OT_missionMarker, 0];
     };
     if (player distance (leader _group) < 30) then {
-        localize "$STR_MISSION_TUTORIAL_DRUGS_03" call OT_fnc_notifyMinor;
+        localize "STR_MISSION_TUTORIAL_DRUGS_03" call OT_fnc_notifyMinor;
 
         call OT_fnc_clearPlayerWaypoint;
     } else {

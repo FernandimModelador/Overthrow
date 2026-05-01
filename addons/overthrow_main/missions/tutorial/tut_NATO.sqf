@@ -61,7 +61,7 @@ if (_targets isEqualTo []) exitWith {
     };
 };
 
-localize "$STR_MISSION_TUTORIAL_02" call OT_fnc_notifyMinor;
+localize "STR_MISSION_TUTORIAL_02" call OT_fnc_notifyMinor;
 //pick the closest group and reveal
 
 private _sorted = [_targets, [], { _x distance player }, "ASCEND"] call BIS_fnc_sortBy;
@@ -87,7 +87,7 @@ private _loopCode = {
     } else {
         private _num = _total - ({ alive _x } count units _group);
         _done = _num >= _total;
-        hintSilent format [localize "$STR_STATISTICS_KILLS", _num, _total];
+        hintSilent format [localize "STR_STATISTICS_KILLS", _num, _total];
     };
 
     if !(_done) then {

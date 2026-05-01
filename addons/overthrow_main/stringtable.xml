@@ -6,6 +6,58 @@
                 <Original>&lt;t align='center' size='1.1'&gt;%1 x %2&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='0.7'&gt;%3&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;Recipe:&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='0.7'&gt;%4&lt;/t&gt;&lt;br/&gt;</Original>
                 <Portuguese>&lt;t align='center' size='1.1'&gt;%1 x %2&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='0.7'&gt;%3&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;Receita:&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='0.7'&gt;%4&lt;/t&gt;&lt;br/&gt;</Portuguese>
             </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_BUSINESS_INFO_01">
+                <Original>%1employ</Original>
+                <Portuguese>%1contratar</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_BUSINESS_INFO_02">
+                <Original>&lt;t size='0.65'&gt;Employees: %1&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.65'&gt;Empregados: %1&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_BUSINESS_INFO_03">
+                <Original>&lt;t size='0.65'&gt;Wages: $%1 /hr&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.65'&gt;Salários: $%1 /hr&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_BUSINESS_INFO_04">
+                <Original>&lt;t size='0.65'&gt;Input: %1 x %2 /hr&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.65'&gt;Entrada: %1 x %2 /hr&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_BUSINESS_INFO_05">
+                <Original>&lt;t size='0.65'&gt;Output: %1 x %2 /hr&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.65'&gt;Saída: %1 x %2 /hr&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_BUSINESS_INFO_06">
+                <Original>&lt;t size='0.65'&gt;Income: $%1 /hr&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.65'&gt;Renda: $%1 /hr&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_BUSINESS_INFO_07">
+                <Original>&lt;t size='0.65'&gt;Next cycle: %1:00&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.65'&gt;Próximo cliclo: %1:00&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_CHAR_SHEET_DIAG_01">
+                <Original>&lt;t size=""2""&gt;Fitness&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Increases the distance you can sprint&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size=""2""&gt;Fitness&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Aumenta a distancia que consegue correr&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_CHAR_SHEET_DIAG_02">
+                <Original>&lt;t size=""2""&gt;Trade&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Ability to negotiate better purchasing prices&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size=""2""&gt;Trocas&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Abilidade para negociar preços melhores&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_CHAR_SHEET_DIAG_03">
+                <Original>&lt;t size=""2""&gt;Stealth&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Less chance of NATO finding illegal items&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size=""2""&gt;Furtividade&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Chance menor da NATO encontrar items ilegais&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_CHAR_SHEET_DIAG_04">
+                <Original>Increase Level (-%1 Influence)</Original>
+                <Portuguese>Aumenta Level (-%1 influencia)</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_CHAR_SHEET_DIAG_05">
+                <Original>You do not have enough influence</Original>
+                <Portuguese>Você não tem influencia o suficiente</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_CHAR_SHEET_DIAG_06">
+                <Original>&lt;t size=""2""&gt;Stealth&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Less chance of people recognizing you or finding illegal items&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size=""2""&gt;Furtividade&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Chance menor de ser reconhecido ou encontrarem items ilegais&lt;/t&gt;</Portuguese>
+            </Key>
             <Key ID="STR_DISPLAY_DISPLAY_FACTORY_REFRESH_01">
                 <Original>&lt;t size='0.8' align='center'&gt;Factory is not currently producing anything. Add to the queue above or Reverse-Engineer nearby items to gain blueprints.&lt;/t&gt;&lt;br/&gt;</Original>
                 <Portuguese>&lt;t size='0.8' align='center'&gt;Atualmente a fábrica não está produzindo nada. Adicione itens à fila acima ou realize engenharia reversa em itens próximos para obter blueprints.&lt;/t&gt;&lt;br/&gt;</Portuguese>
@@ -45,6 +97,10 @@
             <Key ID="STR_DISPLAY_DISPLAY_FACTORY_REFRESH_10">
                 <Original>Time: %1 mins&lt;br/&gt;</Original>
                 <Portuguese>Tempo: %1 mins&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_IMPORT_DIAG_01">
+                <Original>Only legal items may be imported while NATO controls %1</Original>
+                <Portuguese>Apenas items legalizados podem ser importando enquanto estiver sobre controle da NATO %1</Portuguese>
             </Key>
             <Key ID="STR_DISPLAY_DISPLAY_JOB_DETAILS">
                 <Original>Expires in %1 hrs %2 mins</Original>
@@ -110,6 +166,210 @@
                 <Original>&lt;t align='center' size='1.2'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1'&gt;Owner: %2&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.7'&gt;%3&lt;/t&gt;</Original>
                 <Portuguese>&lt;t align='center' size='1.2'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1'&gt;Dono: %2&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.7'&gt;%3&lt;/t&gt;</Portuguese>
             </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_01">
+                <Original>Clear</Original>
+                <Portuguese>Limpo</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_02">
+                <Original>Cloudy</Original>
+                <Portuguese>Nublado</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_03">
+                <Original>Rain</Original>
+                <Portuguese>Chuvendo</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_04">
+                <Original>Storm</Original>
+                <Portuguese>Tempestade</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_05">
+                <Original>&lt;t align='left' size='0.65'&gt;Resistance Funds: $%1 (Tax Rate %2%3)&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.65'&gt;Fundos da Resistencia: $%1 (Taxa do Imposto %2%3)&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_06">
+                <Original>&lt;t align='left' size='0.65'&gt;Resistance Support: %1 (%2%3) %4 (%5%6)&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Influence: %7&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Weather: %8 (Forecast: %9)&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Fuel Price: $%10/L&lt;/t&gt;&lt;br/&gt;%11</Original>
+                <Portuguese>&lt;t align='left' size='0.65'&gt;Suporte á Resistencia: %1 (%2%3) %4 (%5%6)&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Influencia: %7&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Clima: %8 (Previsão: %9)&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Custo do Combustivel: $%10/L&lt;/t&gt;&lt;br/&gt;%11</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_07">
+                <Original>&lt;t align='left' size='0.8'&gt;Warehouse&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Owned by %1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Damage: %2%3&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;Armzazem&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Propriedade de %1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Dano: %2%3&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_08">
+                <Original>&lt;t align='left' size='0.8'&gt;Camp&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Owned by %1&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;Acampamento&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Propriedade de %1&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_09">
+                <Original>Sell ($%1)</Original>
+                <Portuguese>Vender ($%1)</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_10">
+                <Original>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Owned by %2&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Lease Value: $%3/6hrs&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Damage: %4%5&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Propriedade de %2&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Valor do Aluguel: $%3/6hrs&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Dano: %4%5&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_11">
+                <Original>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Owned by %2&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Damage: %3%4&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Propiedade de %2&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Dano: %3%4&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_12">
+                <Original>&lt;t align='left' size='0.8'&gt;Barracks&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Built by %1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Damage: %2%3&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;Quartel&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Construido por %1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Dano: %2%3&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_13">
+                <Original>&lt;t align='left' size='0.8'&gt;Training Camp&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Built by %1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Damage: %2%3&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;Campo de treinamento&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Construido por %1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Dano: %2%3&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_14">
+                <Original>&lt;t align='left' size='0.8'&gt;Refugee Camp&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Built by %1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Damage: %2%3&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;Campo de refugiados&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Construido por %1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Dano: %2%3&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_15">
+                <Original>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Founded by %2&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Fundado por %2&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_16">
+                <Original>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Lease Value: $%2/6hrs&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Valor do Aluguel: $%2/6hrs&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_17">
+                <Original>&lt;t align='left' size='0.8'&gt;Barracks&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;Quartel&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_18">
+                <Original>&lt;t align='left' size='0.8'&gt;Police Station&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Built by %1&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;Estação Policial&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Construido por %1&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_19">
+                <Original>&lt;t align='left' size='0.8'&gt;Workshop&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Built by %1&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;Oficina&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Construido por %1&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_20">
+                <Original>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Under resistance control&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Sob controle da Resistencia&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_21">
+                <Original>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Under resistance control&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Sob controle da NATO&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_22">
+                <Original>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Operational&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;(see resistance screen)&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Operacional&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;(confira painel da resistencia)&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_23">
+                <Original>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Out Of Operation&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;$%2&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Fora de Operação&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;$%2&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAIN_MENU_24">
+                <Original>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Operational&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.8'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.65'&gt;Operacional&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MANAGE_RECRUIT_DIAG_01">
+                <Original>&lt;t align='center' size='1.3'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='left' size='0.7'&gt;Location: %2&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.7'&gt;Rank: %3&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.7'&gt;XP: %4/%5&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='center' size='1.3'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='left' size='0.7'&gt;Local: %2&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.7'&gt;Patente: %3&lt;/t&gt;&lt;br/&gt;&lt;t align='left' size='0.7'&gt;XP: %4/%5&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAP_INFO_DIAG_01">
+                <Original>Click on a location</Original>
+                <Portuguese>Clique em um local</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAP_INFO_DIAG_02">
+                <Original>Under NATO Control</Original>
+                <Portuguese>Sob controle da NATO</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAP_INFO_DIAG_03">
+                <Original>Anarchy</Original>
+                <Portuguese>Anarquia</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAP_INFO_DIAG_04">
+                <Original>Under Resistance Control</Original>
+                <Portuguese>Sob controle da Resistencia</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAP_INFO_DIAG_05">
+                <Original>&lt;t size='1.2' color='#222222'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#222222'&gt;Status: %7&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#222222'&gt;Population: %2&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#222222'&gt;Stability: %3%4&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#222222'&gt;Resistance Support: %5%6&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='1.2' color='#222222'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#222222'&gt;Status: %7&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#222222'&gt;População: %2&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#222222'&gt;Estabilidade: %3%4&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#222222'&gt;Suporte da Resistencia: %5%6&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAP_INFO_DIAG_06">
+                <Original>&lt;t size='1.2' color='#222222'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#222222'&gt;Status: %2&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='1.2' color='#222222'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#222222'&gt;Status: %2&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MAP_INFO_DIAG_08">
+                <Original>Owned</Original>
+                <Portuguese>Controlado</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_MEMBER_INFO_01">
+                <Original> (General)</Original>
+                <Portuguese> (General)</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_POLICE_DIAG_01">
+                <Original>This police station is under NATO control</Original>
+                <Portuguese>Esta estação policial está sob controle da NATO</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_POLICE_DIAG_02">
+                <Original>None</Original>
+                <Portuguese>Nenhum</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_POLICE_DIAG_03">
+                <Original>+%1 Stability/10 mins</Original>
+                <Portuguese>+%1 Estabilidade/10 mins</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_POLICE_DIAG_04">
+                <Original>&lt;t size=""2"" align=""center""&gt;%1 Police Station&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size=""2"" align=""center""&gt;%1 Estação Policial&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_POLICE_DIAG_05">
+                <Original>&lt;t align=""center""&gt;Hire police ($-%1)&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align=""center""&gt;Contratar policia ($-%1)&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_POLICE_DIAG_06">
+                <Original>&lt;t size=""1.5"" align=""center""&gt;Police: %1&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size=""1.5"" align=""center""&gt;Policia: %1&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_POLICE_DIAG_07">
+                <Original>&lt;t size=""1.2"" align=""center""&gt;Effects&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size=""0.8"" align=""center""&gt;%1&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size=""1.2"" align=""center""&gt;Efeitos&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size=""0.8"" align=""center""&gt;%1&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_RECRUIT_DIAG_01">
+                <Original>Must repair before you can recruit</Original>
+                <Portuguese>Repare antes de recrutar</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_RECRUIT_DIAG_02">
+                <Original>This barracks is under NATO control</Original>
+                <Portuguese>Este quartel está sob controle da NATO</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_RESISTANCE_DIAG_01">
+                <Original>&lt;t align='center' size='0.7'&gt;Balance Sheet (per 6 hrs)&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t align='center' size='0.7'&gt;Balança Patrimonial (por 6 hrs)&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_RESISTANCE_DIAG_02">
+                <Original>&lt;t align='left' size='0.65'&gt;Resistance Funds: $%1&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t align='left' size='0.65'&gt;Fundos da Resistencia: $%1&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_RESISTANCE_DIAG_03">
+                <Original>&lt;t size='0.65'&gt;Lease Income: $%1&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.65'&gt;Renda de Aluguel: $%1&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_RESISTANCE_DIAG_04">
+                <Original>&lt;t size='0.65'&gt;Civilian Income: $%1 ($%2 per player)&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.65'&gt;Renda Civil: $%1 ($%2 por player)&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_RESISTANCE_DIAG_05">
+                <Original>&lt;t size='0.65'&gt;Resistance Tax (%1%2): $%3 ($%4 per player)&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.65'&gt;Taxa da Resistencia (%1%2): $%3 ($%4 por player)&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_RESISTANCE_DIAG_06">
+                <Original>&lt;t size='0.65'&gt;Business Income: $%1 (6 hrs)&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.65'&gt;Renda Empresarial: $%1 (6 hrs)&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_RESISTANCE_DIAG_07">
+                <Original>&lt;t size='0.65'&gt;Wages: $%1%2 (6 hrs)&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.65'&gt;Salários: $%1%2 (6 hrs)&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_RESISTANCE_DIAG_08">
+                <Original>&lt;t size='0.8'&gt;Balance (Resistance): $%1&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.8'&gt;Balança (Resistencia): $%1&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_RESISTANCE_DIAG_09">
+                <Original>&lt;t size='0.8'&gt;Balance (You): $%1&lt;/t&gt;&lt;br/&gt;</Original>
+                <Portuguese>&lt;t size='0.8'&gt;Balança (Você): $%1&lt;/t&gt;&lt;br/&gt;</Portuguese>
+            </Key>
             <Key ID="STR_DISPLAY_DISPLAY_SHOP_PIC_01">
                 <Original>Quad Bike w/ HMG Backpacks</Original>
                 <Portuguese>Quadriciculo com mochila HMG</Portuguese>
@@ -142,9 +402,21 @@
                 <Original>Not Available</Original>
                 <Portuguese>Não disponivel</Portuguese>
             </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_UPLOAD_DIAG_01">
+                <Original>Copy And Paste this data to load from a string.</Original>
+                <Portuguese>Copie e cole estes dados para carregar de uma string.</Portuguese>
+            </Key>
+            <Key ID="STR_DISPLAY_DISPLAY_UPLOAD_DIAG_02">
+                <Original>&lt;t font='PuristaMedium'&gt;Use the data above to share your save or externally backup your mission.&lt;br/&gt;To load a mission from this data copy and paste it into the text box provided when selecting 'Load Game' in the mission menu. This data does contain your Steam ID and can be used to identify you.&lt;/t&gt;</Original>
+                <Portuguese>&lt;t font='PuristaMedium'&gt;Utilize os dados acima para compartilhar seu arquivo de jogo salvo ou fazer backup externo da sua missão.&lt;br/&gt;Para carregar uma missão a partir desses dados, copie e cole o código na caixa de texto fornecida ao selecionar "Carregar Jogo" no menu de missões. Esses dados contêm seu ID do Steam e podem ser usados ​​para identificá-lo.&lt;/t&gt;</Portuguese>
+            </Key>
             <Key ID="STR_DISPLAY_DISPLAY_WAREHOUSE_PIC_01">
                 <Original>&lt;t align='center' size='1.5'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1.2'&gt;%3 in stock&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;%2&lt;/t&gt;</Original>
                 <Portuguese>&lt;t align='center' size='1.5'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1.2'&gt;%3 em estoque&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;%2&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_FNC_NOTIFY_VEHICLE_01">
+                <Original>&lt;t align='left' size='1.2' color='#ffffff'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#bbbbbb' align='left'&gt;Owner: %2&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='left' size='1.2' color='#ffffff'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.5' color='#bbbbbb' align='left'&gt;Dono: %2&lt;/t&gt;</Portuguese>
             </Key>
         </Container>
         <Container name="Paramters and Statistics">
@@ -652,6 +924,10 @@
                 <Original>Low</Original>
                 <Portuguese>Baixo</Portuguese>
             </Key>
+            <Key ID="STR_STATISTICS_MANAGE">
+                <Original>Manage</Original>
+                <Portuguese>Gerenciar</Portuguese>
+            </Key>
             <Key ID="STR_STATISTICS_MEDIUM">
                 <Original>Medium</Original>
                 <Portuguese>Médio</Portuguese>
@@ -699,6 +975,14 @@
             <Key ID="STR_STATISTICS_PLAYERS_ONLY">
                 <Original>Players Only</Original>
                 <Portuguese>Apenas Jogadores</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_RECRUIT">
+                <Original>Recruit</Original>
+                <Portuguese>Recruit</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_REPAIR">
+                <Original>Repair</Original>
+                <Portuguese>Reparar</Portuguese>
             </Key>
             <Key ID="STR_STATISTICS_RESTRICTED">
                 <Original>Restricted</Original>
