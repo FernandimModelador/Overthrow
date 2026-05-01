@@ -35,16 +35,16 @@
                 <Portuguese>&lt;t size='0.65'&gt;Próximo cliclo: %1:00&lt;/t&gt;&lt;br/&gt;</Portuguese>
             </Key>
             <Key ID="STR_DISPLAY_DISPLAY_CHAR_SHEET_DIAG_01">
-                <Original>&lt;t size=""2""&gt;Fitness&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Increases the distance you can sprint&lt;/t&gt;</Original>
-                <Portuguese>&lt;t size=""2""&gt;Fitness&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Aumenta a distancia que consegue correr&lt;/t&gt;</Portuguese>
+                <Original>&lt;t size='2'&gt;Fitness&lt;/t&gt;&lt;br/&gt;&lt;t size='1.1'&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.7'&gt;Increases the distance you can sprint&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='2'&gt;Fitness&lt;/t&gt;&lt;br/&gt;&lt;t size='1.1'&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.7'&gt;Aumenta a distancia que consegue correr&lt;/t&gt;</Portuguese>
             </Key>
             <Key ID="STR_DISPLAY_DISPLAY_CHAR_SHEET_DIAG_02">
-                <Original>&lt;t size=""2""&gt;Trade&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Ability to negotiate better purchasing prices&lt;/t&gt;</Original>
-                <Portuguese>&lt;t size=""2""&gt;Trocas&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Abilidade para negociar preços melhores&lt;/t&gt;</Portuguese>
+                <Original>&lt;t size='2'&gt;Trade&lt;/t&gt;&lt;br/&gt;&lt;t size='1.1'&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.7'&gt;Ability to negotiate better purchasing prices&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='2'&gt;Trocas&lt;/t&gt;&lt;br/&gt;&lt;t size='1.1'&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.7'&gt;Abilidade para negociar preços melhores&lt;/t&gt;</Portuguese>
             </Key>
             <Key ID="STR_DISPLAY_DISPLAY_CHAR_SHEET_DIAG_03">
-                <Original>&lt;t size=""2""&gt;Stealth&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Less chance of NATO finding illegal items&lt;/t&gt;</Original>
-                <Portuguese>&lt;t size=""2""&gt;Furtividade&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Chance menor da NATO encontrar items ilegais&lt;/t&gt;</Portuguese>
+                <Original>&lt;t size='2'&gt;Stealth&lt;/t&gt;&lt;br/&gt;&lt;t size='1.1'&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.7'&gt;Less chance of NATO finding illegal items&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='2'&gt;Furtividade&lt;/t&gt;&lt;br/&gt;&lt;t size='1.1'&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.7'&gt;Chance menor da NATO encontrar items ilegais&lt;/t&gt;</Portuguese>
             </Key>
             <Key ID="STR_DISPLAY_DISPLAY_CHAR_SHEET_DIAG_04">
                 <Original>Increase Level (-%1 Influence)</Original>
@@ -55,8 +55,8 @@
                 <Portuguese>Você não tem influencia o suficiente</Portuguese>
             </Key>
             <Key ID="STR_DISPLAY_DISPLAY_CHAR_SHEET_DIAG_06">
-                <Original>&lt;t size=""2""&gt;Stealth&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Less chance of people recognizing you or finding illegal items&lt;/t&gt;</Original>
-                <Portuguese>&lt;t size=""2""&gt;Furtividade&lt;/t&gt;&lt;br/&gt;&lt;t size=""1.1""&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size=""0.7""&gt;Chance menor de ser reconhecido ou encontrarem items ilegais&lt;/t&gt;</Portuguese>
+                <Original>&lt;t size='2'&gt;Stealth&lt;/t&gt;&lt;br/&gt;&lt;t size='1.1'&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.7'&gt;Less chance of people recognizing you or finding illegal items&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='2'&gt;Furtividade&lt;/t&gt;&lt;br/&gt;&lt;t size='1.1'&gt;Level %1&lt;/t&gt;&lt;br/&gt;&lt;t size='0.7'&gt;Chance menor de ser reconhecido ou encontrarem items ilegais&lt;/t&gt;</Portuguese>
             </Key>
             <Key ID="STR_DISPLAY_DISPLAY_FACTORY_REFRESH_01">
                 <Original>&lt;t size='0.8' align='center'&gt;Factory is not currently producing anything. Add to the queue above or Reverse-Engineer nearby items to gain blueprints.&lt;/t&gt;&lt;br/&gt;</Original>
@@ -311,20 +311,20 @@
                 <Portuguese>+%1 Estabilidade/10 mins</Portuguese>
             </Key>
             <Key ID="STR_DISPLAY_DISPLAY_POLICE_DIAG_04">
-                <Original>&lt;t size=""2"" align=""center""&gt;%1 Police Station&lt;/t&gt;</Original>
-                <Portuguese>&lt;t size=""2"" align=""center""&gt;%1 Estação Policial&lt;/t&gt;</Portuguese>
+                <Original>&lt;t size='2' align='center'&gt;%1 Police Station&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='2' align='center'&gt;%1 Estação Policial&lt;/t&gt;</Portuguese>
             </Key>
             <Key ID="STR_DISPLAY_DISPLAY_POLICE_DIAG_05">
-                <Original>&lt;t align=""center""&gt;Hire police ($-%1)&lt;/t&gt;</Original>
-                <Portuguese>&lt;t align=""center""&gt;Contratar policia ($-%1)&lt;/t&gt;</Portuguese>
+                <Original>&lt;t align='center'&gt;Hire police ($-%1)&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='center'&gt;Contratar policia ($-%1)&lt;/t&gt;</Portuguese>
             </Key>
             <Key ID="STR_DISPLAY_DISPLAY_POLICE_DIAG_06">
-                <Original>&lt;t size=""1.5"" align=""center""&gt;Police: %1&lt;/t&gt;</Original>
-                <Portuguese>&lt;t size=""1.5"" align=""center""&gt;Policia: %1&lt;/t&gt;</Portuguese>
+                <Original>&lt;t size='1.5' align='center'&gt;Police: %1&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='1.5' align='center'&gt;Policia: %1&lt;/t&gt;</Portuguese>
             </Key>
             <Key ID="STR_DISPLAY_DISPLAY_POLICE_DIAG_07">
-                <Original>&lt;t size=""1.2"" align=""center""&gt;Effects&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size=""0.8"" align=""center""&gt;%1&lt;/t&gt;</Original>
-                <Portuguese>&lt;t size=""1.2"" align=""center""&gt;Efeitos&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size=""0.8"" align=""center""&gt;%1&lt;/t&gt;</Portuguese>
+                <Original>&lt;t size='1.2' align='center'&gt;Effects&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8' align='center'&gt;%1&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='1.2' align='center'&gt;Efeitos&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8' align='center'&gt;%1&lt;/t&gt;</Portuguese>
             </Key>
             <Key ID="STR_DISPLAY_DISPLAY_RECRUIT_DIAG_01">
                 <Original>Must repair before you can recruit</Original>
@@ -737,8 +737,8 @@
                 <Portuguese>Save Persistente</Portuguese>
             </Key>
             <Key ID="STR_PARAMTERS_PERSISTENT_SAVE_DESC">
-                <Original>A more secure save than default, this will work across updates of both Arma and Overthrow. To load this just restart the mission and choose ""load persistent"</Original>
-                <Portuguese>Uma opção de salvamento mais segura que a padrão, que funcionará em todas as atualizações de Arma e Overthrow. Para carregar este salvamento, basta reiniciar a missão e escolher ""carregar persistente".</Portuguese>
+                <Original>A more secure save than default, this will work across updates of both Arma and Overthrow. To load this just restart the mission and choose "load persistent"</Original>
+                <Portuguese>Uma opção de salvamento mais segura que a padrão, que funcionará em todas as atualizações de Arma e Overthrow. Para carregar este salvamento, basta reiniciar a missão e escolher 'carregar persistente'.</Portuguese>
             </Key>
             <Key ID="STR_PARAMTERS_PERSISTENT_SAVE_DESC1">
                 <Original>Persistent save, clear bodies/fog and more</Original>
