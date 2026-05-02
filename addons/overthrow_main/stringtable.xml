@@ -1297,6 +1297,46 @@
                 <Original>Failed Delivery of %1 x %2</Original>
                 <Portuguese>Falhou Entrega de %1 x %2</Portuguese>
             </Key>
+            <Key ID="STR_MISSION_TAGGING_01">
+                <Original>Stability in the town will drop 10%, Reward: $200, +5 Resistance Support</Original>
+                <Portuguese>A estabilidade na cidade cairá 10%. Recompensa: $200, +5 de Apoio à Resistência</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TAGGING_02">
+                <Original>It's time to tell NATO what we think of them and get the public behind the resistance in %1. Do 5 tags in the town. Spraypaint can be purchased from General stores marked with a ($) icon and used on walls with the ACE self-interact key (Ctrl + Windows key by default)&lt;br/&gt;&lt;br/&gt;%2</Original>
+                <Portuguese>Chegou a hora de dizer à NATO o que pensamos deles e conseguir o apoio do público à resistência em %1. Faça 5 pichações na cidade. A tinta spray pode ser comprada em lojas gerais marcadas com um ícone ($) e usada nas paredes com a tecla de interação ACE (Ctrl + Windows por padrão)&lt;br/&gt;&lt;br/&gt;%2</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TAGGING_03">
+                <Original>Graffiti in %1</Original>
+                <Portuguese>Grafite em %1</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TRANSFORMER_01">
+                <Original>A transformer in %1 has broken down and they are without electricity. Donate 4000$ to the mayor so they can get a new one. &lt;br/&gt;&lt;br/&gt;%2</Original>
+                <Portuguese>Um transformador em %1 quebrou e eles estão sem energia elétrica. Doe 4000$ ao prefeito para que eles possam comprar um novo. &lt;br/&gt;&lt;br/&gt;%2</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TRANSFORMER_02">
+                <Original>%1 needs electricity</Original>
+                <Portuguese>%1 precisa de energia elétrica</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TRANSFORMER_03">
+                <Original>Donated 4000$ to %1</Original>
+                <Portuguese>Doou 4000% para %1</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TRANSPORT_VIP_01">
+                <Original>Our intelligence operative %1 is in need of transport from %2 to %3. He is of local descent so you should have no problems passing through NATO checkpoints unnoticed. Please take care of it within 12 hrs.&lt;br/&gt;&lt;br/&gt;Reward: +5 (%4), $250</Original>
+                <Portuguese>Nosso agente de inteligência %1 precisa de transporte de %2 para %3. Ele é de ascendência local, então você não deve ter problemas para passar pelos postos de controle da NATO sem ser notado. Por favor, providencie isso em até 12 horas.&lt;br/&gt;&lt;br/&gt;Recompensa: +5 (%4), $250</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TRANSPORT_VIP_02">
+                <Original>Operative transport for %1</Original>
+                <Portuguese>Transportar Agente para %1</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TRANSPORT_VIP_03">
+                <Original>Incoming message from %1: Thank you for delivering our operative. (+5 %1)</Original>
+                <Portuguese>Mensagem recebida de %1: Obrigado por entregar nosso agente. (+5 %1)</Portuguese>
+            </Key>
+            <Key ID="STR_MISSION_TRANSPORT_VIP_04">
+                <Original>Incoming message from %1: What happened?!? (-10 %1)</Original>
+                <Portuguese>Mensagem recebida de %1: O que aconteceu?!? (-10 %1)</Portuguese>
+            </Key>
         </Container>
         <Container name="Functions">
             <Key ID="STR_FNC_NOTIFY_VEHICLE_01">
