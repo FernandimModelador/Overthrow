@@ -541,7 +541,7 @@ class OT_dialog_loadout {
             idc = 1600;
             action = "[player, OT_context, lbData [1500, lbCurSel 1500]] call OT_fnc_restoreLoadout";
 
-            text = "Restore"; //--- ToDo: Localize;
+            text = "$STR_STATISTICS_RESTORE";
             x = "0.12875 * safeZoneW + safeZoneX";
             y = "0.511 * safeZoneH + safeZoneY";
             w = "0.149531 * safeZoneW";
@@ -552,7 +552,7 @@ class OT_dialog_loadout {
             idc = 1601;
             action = "[lbData [1500, lbCurSel 1500]] call OT_fnc_removeLoadout";
 
-            text = "Delete"; //--- ToDo: Localize;
+            text = "$STR_STATISTICS_DELETE";
             x = "0.12875 * safeZoneW + safeZoneX";
             y = "0.61 * safeZoneH + safeZoneY";
             w = "0.149531 * safeZoneW";

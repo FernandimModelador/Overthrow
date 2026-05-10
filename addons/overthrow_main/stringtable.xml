@@ -414,6 +414,314 @@
                 <Original>&lt;t align='center' size='1.5'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1.2'&gt;%3 in stock&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;%2&lt;/t&gt;</Original>
                 <Portuguese>&lt;t align='center' size='1.5'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t align='center' size='1.2'&gt;%3 em estoque&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' size='0.8'&gt;%2&lt;/t&gt;</Portuguese>
             </Key>
+            <Key ID="STR_UI_DIAG_BUILD_01">
+                <Original>Walls</Original>
+                <Portuguese>Paredes</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_02">
+                <Original>Stop people (or tanks) from getting in</Original>
+                <Portuguese>Impeça a entrada de pessoas (ou tanques)</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_03">
+                <Original>Observation Post</Original>
+                <Portuguese>Posto de Observação</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_04">
+                <Original>A small tower that will garrison static weapons</Original>
+                <Portuguese>Uma pequena torre que abrigará armas estáticas</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_05">
+                <Original>Bunkers</Original>
+                <Portuguese>Bunkers</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_06">
+                <Original>Small defensive structures</Original>
+                <Portuguese>Pequenas estruturas defensivas</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_07">
+                <Original>Warehouse</Original>
+                <Portuguese>Armazém</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_08">
+                <Original>Stores and retrieves items from all warehouses</Original>
+                <Portuguese>Armazena e recolhe itens de todos os armazéns</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_09">
+                <Original>Barracks</Original>
+                <Portuguese>Quartel</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_10">
+                <Original>Workshop</Original>
+                <Portuguese>Oficina</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_11">
+                <Original>Modify vehicles</Original>
+                <Portuguese>Modifique veiculos</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_12">
+                <Original>Helipad</Original>
+                <Portuguese>Heliporto</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_13">
+                <Original>Apparently helicopters need a place to land</Original>
+                <Portuguese>Aparentemente os helicópteros precisam de um lugar para pousar</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_14">
+                <Original>Guard Tower</Original>
+                <Portuguese>Torre Guarda</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_15">
+                <Original>A huge tower. Will garrison static weapons</Original>
+                <Portuguese>Uma torre enorme. Irá guarnecer armas estáticas.</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_16">
+                <Original>Radar</Original>
+                <Portuguese>Radar</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_17">
+                <Original>Reveals all drones, helicopters and planes within a 2.5km radius.</Original>
+                <Portuguese>Revela todos os drones, helicópteros e aviões num raio de 2.5 km</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_18">
+                <Original>House</Original>
+                <Portuguese>Casa</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_19">
+                <Original>4 Walls, a roof, maybe a door that opens if you're lucky.</Original>
+                <Portuguese>4 paredes, um teto e, com sorte, uma porta que se abra.</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_20">
+                <Original>Police Station</Original>
+                <Portuguese>Estação Policial</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_21">
+                <Original>Increase stability and keep the peace</Original>
+                <Portuguese>Aumenta a estabilidade e mantem a paz</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_22">
+                <Original>&lt;t size='2' align='center'&gt;Blah Police Station&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='2' align='center'&gt;Blah Estação Policial&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_23">
+                <Original>&lt;t size='1.5' align='center'&gt;Police: 2&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='1.5' align='center'&gt;Policia: 2&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_24">
+                <Original>&lt;t align='center'&gt;Hire police&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='center'&gt;Contratar policia&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_25">
+                <Original>&lt;t size='1.2' align='center'&gt;Effects&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8' align='center'&gt;+1 Stability/10 mins&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='1.2' align='center'&gt;Effects&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8' align='center'&gt;+1 Estabilidade/10 mins&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_BUILD_26">
+                <Original>Edit Loadout</Original>
+                <Portuguese>Editar Loadout</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_FACTORY_01">
+                <Original>&lt;t size='1.5' align='center'&gt;Factory&lt;/t&gt;&lt;br/&gt;&lt;t size='0.8' align='center'&gt;Currently producing&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='1.5' align='center'&gt;Factory&lt;/t&gt;&lt;br/&gt;&lt;t size='0.8' align='center'&gt;Atualmente produzindo&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_FACTORY_02">
+                <Original>&lt;t size='0.8' align='center'&gt;Change production&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='0.8' align='center'&gt;Alterar produção&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_FACTORY_03">
+                <Original>Clear</Original>
+                <Portuguese>Limpar</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_FACTORY_04">
+                <Original>Set</Original>
+                <Portuguese>Setar</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_FACTORY_05">
+                <Original>Reverse-Engineer</Original>
+                <Portuguese>Engenharia-reversa</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_FACTORY_06">
+                <Original>&lt;t align='center' size='1.8'&gt;Factory&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='center' size='1.8'&gt;Fabrica&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_FACTORY_07">
+                <Original>&lt;t size='0.9'&gt;Build Queue&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='0.9'&gt;Fila em Construção&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_FACTORY_08">
+                <Original>&lt;t size='0.9'&gt;Blueprints&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='0.9'&gt;Plantas&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_FACTORY_09">
+                <Original>Remove</Original>
+                <Portuguese>Remover</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_FACTORY_10">
+                <Original>Remove All</Original>
+                <Portuguese>Remover Tudo</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_FACTORY_11">
+                <Original>Craft</Original>
+                <Portuguese>Fabricar</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_01">
+                <Original>Enter a name for your new base</Original>
+                <Portuguese>Insira um nome para sua nova base</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_02">
+                <Original>Done</Original>
+                <Portuguese>Finalizar</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_03">
+                <Original>OK</Original>
+                <Portuguese>OK</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_04">
+                <Original>Sandbags</Original>
+                <Portuguese>Saco de Areia</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_05">
+                <Original>Light defense</Original>
+                <Portuguese>Defesa leve</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_06">
+                <Original>Camo Nets</Original>
+                <Portuguese>Redes Camufladas</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_07">
+                <Original>Hide from the helicopters</Original>
+                <Portuguese>Esconde de helicopteros</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_08">
+                <Original>Barriers</Original>
+                <Portuguese>Barreiras</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_09">
+                <Original>Medium defense</Original>
+                <Portuguese>Defesa média</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_10">
+                <Original>Camp</Original>
+                <Portuguese>Acampamento</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_11">
+                <Original>Creates a fast travel destination</Original>
+                <Portuguese>Cria um destino de viagem rápida</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_12">
+                <Original>Ammobox</Original>
+                <Portuguese>Caixa de munição</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_13">
+                <Original>An empty ammobox</Original>
+                <Portuguese>Uma caixa de munição vazia</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_14">
+                <Original>Misc</Original>
+                <Portuguese>Misc</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_15">
+                <Original>Miscellaneous (but useful) items</Original>
+                <Portuguese>Itens diversos (mas úteis)</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_16">
+                <Original>FOB</Original>
+                <Portuguese>FOB</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_17">
+                <Original>Creates a fast travel destination, allows building of light military structures</Original>
+                <Portuguese>Cria um destino de viagens rápidas e permite a construção de estruturas militares leves.</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_18">
+                <Original>Map</Original>
+                <Portuguese>Mapa</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_19">
+                <Original>A map</Original>
+                <Portuguese>um mapa</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_20">
+                <Original>Safe</Original>
+                <Portuguese>Cofre</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_PLACE_21">
+                <Original>Store and retrieve money</Original>
+                <Portuguese>Armazene e retire dinheiro</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_01">
+                <Original>&lt;t align='center' size='2'&gt;Resistance&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='center' size='2'&gt;Resistencia&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_02">
+                <Original>Make General</Original>
+                <Portuguese>Fazer General</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_03">
+                <Original>Transfer funds</Original>
+                <Portuguese>Transferir fundos</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_04">
+                <Original>&lt;t align='center' size='1.2'&gt;Businesses&lt;/t&gt;</Original>
+                <Portuguese>&lt;t align='center' size='1.2'&gt;Empresas&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_05">
+                <Original>Fire</Original>
+                <Portuguese>Demitir</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_06">
+                <Original>Hire</Original>
+                <Portuguese>Contratar</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_07">
+                <Original>Give funds</Original>
+                <Portuguese>Doar fundos</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_08">
+                <Original>Take funds</Original>
+                <Portuguese>Pegar fundos</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_09">
+                <Original>&lt;t size='1.5' align='center'&gt;Base&lt;/t&gt;</Original>
+                <Portuguese>&lt;t size='1.5' align='center'&gt;Base&lt;/t&gt;</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_10">
+                <Original>+1 Rifleman</Original>
+                <Portuguese>+1 Fuzileiro</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_11">
+                <Original>+1 Autorifleman</Original>
+                <Portuguese>+1 uzileiro Automático</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_12">
+                <Original>+1 Grenadier</Original>
+                <Portuguese>+1 Granadeiro</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_13">
+                <Original>+1 Medic</Original>
+                <Portuguese>+1 Médico</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_14">
+                <Original>+1 Anti-Tank</Original>
+                <Portuguese>+1 Anti-Tanque</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_15">
+                <Original>+1 Anti-Air</Original>
+                <Portuguese>+1 Anti-Aereo</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_16">
+                <Original>+1 HMG</Original>
+                <Portuguese>+1 HMG</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_17">
+                <Original>+1 GMG</Original>
+                <Portuguese>+1 GMG</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_18">
+                <Original>Set Waypoint</Original>
+                <Portuguese>Setar Waypoint</Portuguese>
+            </Key>
+            <Key ID="STR_UI_DIAG_RESISTANCE_19">
+                <Original>Clear Waypoint</Original>
+                <Portuguese>Remover Waypoint</Portuguese>
+            </Key>
         </Container>
         <Container name="Events">
             <Key ID="STR_EVENT_BUILDING_DAMAGED_01">
@@ -1258,6 +1566,10 @@
                 <Original>Toggle between zeus access as the host</Original>
                 <Portuguese>Alternar entre o acesso Zeus como host</Portuguese>
             </Key>
+            <Key ID="STR_STATISTICS_ACCEPT">
+                <Original>Accept</Original>
+                <Portuguese>Aceitar</Portuguese>
+            </Key>
             <Key ID="STR_STATISTICS_ADD">
                 <Original>Add</Original>
                 <Portuguese>Adicionar</Portuguese>
@@ -1286,6 +1598,10 @@
                 <Original>Buy</Original>
                 <Portuguese>Comprar</Portuguese>
             </Key>
+            <Key ID="STR_STATISTICS_CANCEL">
+                <Original>Cancel</Original>
+                <Portuguese>Cancelar</Portuguese>
+            </Key>
             <Key ID="STR_STATISTICS_CLOSE">
                 <Original>Close</Original>
                 <Portuguese>Fechar</Portuguese>
@@ -1298,9 +1614,21 @@
                 <Original>Costs</Original>
                 <Portuguese>Custos</Portuguese>
             </Key>
+            <Key ID="STR_STATISTICS_DELETE">
+                <Original>Delete</Original>
+                <Portuguese>Deletar</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_DENY">
+                <Original>Deny</Original>
+                <Portuguese>Rejeitar</Portuguese>
+            </Key>
             <Key ID="STR_STATISTICS_DISABLED">
                 <Original>Disabled</Original>
                 <Portuguese>Desabilitado</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_DISMISS">
+                <Original>Dismiss</Original>
+                <Portuguese>Dispensar</Portuguese>
             </Key>
             <Key ID="STR_STATISTICS_EASY">
                 <Original>Easy</Original>
@@ -1441,6 +1769,10 @@
             <Key ID="STR_STATISTICS_REPAIR">
                 <Original>Repair</Original>
                 <Portuguese>Reparar</Portuguese>
+            </Key>
+            <Key ID="STR_STATISTICS_RESTORE">
+                <Original>Restore</Original>
+                <Portuguese>Restaurar</Portuguese>
             </Key>
             <Key ID="STR_STATISTICS_RESTRICTED">
                 <Original>Restricted</Original>
